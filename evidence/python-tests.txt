@@ -1,0 +1,36 @@
+test_cli_approval_withdraw_and_sitemap (test_commands.CommandTests.test_cli_approval_withdraw_and_sitemap) ... ok
+test_approval_required_and_with_content_snapshot (test_pipeline.PipelineTests.test_approval_required_and_with_content_snapshot) ... ok
+test_atomic_utf8_write (test_pipeline.PipelineTests.test_atomic_utf8_write) ... ok
+test_catalog (test_pipeline.PipelineTests.test_catalog) ... ok
+test_duplicate_title_and_url (test_pipeline.PipelineTests.test_duplicate_title_and_url) ... ok
+test_empty_drafts (test_pipeline.PipelineTests.test_empty_drafts) ... ok
+test_empty_feed (test_pipeline.PipelineTests.test_empty_feed) ... ok
+test_fallback_keeps_previous_bytes (test_pipeline.PipelineTests.test_fallback_keeps_previous_bytes) ... ok
+test_malformed_feed (test_pipeline.PipelineTests.test_malformed_feed) ... WARNING:root:RSS query 1 unavailable: no element found: line 1, column 5
+WARNING:root:RSS query 2 unavailable: no element found: line 1, column 5
+ok
+test_new_data_written_privately (test_pipeline.PipelineTests.test_new_data_written_privately) ... ok
+test_oversized_feed (test_pipeline.PipelineTests.test_oversized_feed) ... WARNING:root:RSS query 1 unavailable: RSS exceeds size limit
+WARNING:root:RSS query 2 unavailable: RSS exceeds size limit
+ok
+test_stable_ids (test_pipeline.PipelineTests.test_stable_ids) ... ok
+test_timeout (test_pipeline.PipelineTests.test_timeout) ... WARNING:root:RSS query 1 unavailable: timeout
+WARNING:root:RSS query 2 unavailable: timeout
+ok
+test_unsafe_feed (test_pipeline.PipelineTests.test_unsafe_feed) ... ok
+test_url_validation (test_pipeline.PipelineTests.test_url_validation) ... ok
+test_no_network_does_not_crash (test_project.Tests.test_no_network_does_not_crash) ... WARNING:root:RSS query 1 unavailable: offline
+WARNING:root:RSS query 2 unavailable: offline
+ok
+test_reject_insecure_link (test_project.Tests.test_reject_insecure_link) ... ok
+test_seed_data (test_project.Tests.test_seed_data) ... ok
+test_site_files (test_project.Tests.test_site_files) ... ok
+test_site_and_json_serve (test_site_http.WebsiteHTTPTest.test_site_and_json_serve) ... 127.0.0.1 - - [26/Oct/2026 08:14:02] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 08:14:02] "GET /data/published.json HTTP/1.1" 200 -
+ok
+No fresh items. Keeping previous research.json if present.
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.090s
+
+OK

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://phamkhactruongbka-lab.github.io/cinetech-ai/sitemap.xml

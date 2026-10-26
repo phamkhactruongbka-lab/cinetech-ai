@@ -1,0 +1,1 @@
+PASS: DOM escaping, approval filter, HTTPS links, empty/error states, affiliate disclosure

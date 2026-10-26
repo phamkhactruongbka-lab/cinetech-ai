@@ -1,0 +1,42 @@
+name: Research phim moi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: research-data
+  cancel-in-progress: false
+jobs:
+  research:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node tests/test_dom.cjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test before collecting
+        run: python -m unittest discover -s tests -v
+      - name: Collect and validate private drafts
+        run: |
+          python agent/research.py
+          python agent/validate.py
+          python agent/editor.py
+      - name: Commit research only; never publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/research.json data/drafts.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update research drafts"
+            git push
+          fi
