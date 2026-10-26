@@ -1,5 +1,11 @@
 # CineTech AI — MVP tiếng Việt
 
+Website: https://phamkhactruongbka-lab.github.io/cinetech-ai/
+
+Repository: https://github.com/phamkhactruongbka-lab/cinetech-ai
+
+Pages, CI và Research chạy thủ công đã thành công ngày 26/10/2026. Xem `DEPLOYMENT_REPORT.md` để biết bằng chứng và phần còn lại.
+
 Website tĩnh về tin phim và thiết bị xem phim. Python chỉ dùng thư viện chuẩn; không cần API, không có dịch vụ trả phí, không cam kết doanh thu. Editor tạo bản nháp theo quy tắc, không phải LLM. Catalog hiện trống để tránh thông tin sản phẩm chưa xác minh.
 
 ## Chạy trên Windows (PowerShell)
@@ -72,7 +78,7 @@ $siteUrl = Read-Host 'URL HTTPS thật của GitHub Pages, gồm cả tên repos
 py -3 agent/configure_site.py --url $siteUrl
 ```
 
-Commit/push `docs/sitemap.xml` và `docs/robots.txt`. Sitemap đã được cấu hình cho `https://phamkhactruongbka-lab.github.io/cinetech-ai/`; địa chỉ chỉ hoạt động khi Pages triển khai thành công. Với Pages dạng project, robots.txt nằm dưới đường dẫn project; crawler chỉ đọc robots.txt tại gốc origin. Muốn áp dụng quy tắc toàn host cần cấu hình tại site gốc hoặc domain riêng; có thể gửi sitemap thật trực tiếp cho công cụ tìm kiếm.
+Commit/push `docs/sitemap.xml` và `docs/robots.txt`. Sitemap đã được cấu hình cho `https://phamkhactruongbka-lab.github.io/cinetech-ai/`; Pages đã triển khai thành công; kiểm tra lại sitemap nếu thay đổi tên repository hoặc domain. Với Pages dạng project, robots.txt nằm dưới đường dẫn project; crawler chỉ đọc robots.txt tại gốc origin. Muốn áp dụng quy tắc toàn host cần cấu hình tại site gốc hoặc domain riêng; có thể gửi sitemap thật trực tiếp cho công cụ tìm kiếm.
 
 5. Mở Actions → Research phim moi → Run workflow trên branch mặc định. Kiểm tra log và diff hai file `data/`; website không có tin mới cho đến khi duyệt.
 6. Lịch `15 2 * * *` là 09:15 giờ Việt Nam/Asia-Bangkok mỗi ngày; lịch có thể trễ hoặc bị vô hiệu khi repo public không hoạt động lâu. Xem trạng thái Actions thực tế.

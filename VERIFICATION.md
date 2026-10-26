@@ -1,3 +1,5 @@
+> Cập nhật 26/10/2026: báo cáo bên dưới ghi lại lần kiểm tra cục bộ ban đầu. GitHub Pages, CI và Research sau đó đã triển khai thành công; xem DEPLOYMENT_REPORT.md để biết trạng thái mới nhất.
+
 # Kết quả xác minh — 26/10/2026
 
 Đã đọc README, toàn bộ Python/HTML/CSS/JS/JSON, tests và workflow trong bản đầu; thực hiện thay đổi trực tiếp tại workspace. Không tạo hoặc sửa tài nguyên từ xa.
