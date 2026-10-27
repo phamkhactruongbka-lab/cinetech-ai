@@ -20,3 +20,10 @@ Automation theo dõi đã tồn tại và ACTIVE. Cấu hình đọc thực tế
 1. Khi kết nối GitHub hoạt động: fetch, tích hợp cập nhật của bot nếu có, push, xác minh CI/Pages và website công khai.
 2. Người dùng đọc EDITORIAL_REVIEW.md và chỉ rõ bài được duyệt cùng tên người duyệt công khai trước khi xuất bản.
 3. Hoàn thành quan sát tuần bằng dữ liệu thực tế; không suy đoán uptime/doanh thu.
+
+## 27/10/2026 13:34 UTC+7 — thực hiện kế hoạch tiếp theo
+- Git fetch origin thất bại: Could not resolve host: github.com. Chưa push, chưa xác minh CI/Pages hoặc event schedule mới.
+- gh auth status báo token invalid đồng thời API không kết nối được; chưa đủ bằng chứng kết luận token bị thu hồi. Kiểm tra lại sau khi mạng API phục hồi, không yêu cầu gửi token.
+- Website công khai HEAD trả HTTP 200; GET products.json trả products=[]; published.json trả items=[]. Bản catalog 3 sản phẩm local chưa được triển khai.
+- Automation đã cập nhật và đọc lại xác minh: ACTIVE, 09:00 hằng ngày. Lịch có UNTIL không được ứng dụng lưu đúng nên dùng lịch tuần đủ 7 ngày; prompt yêu cầu báo cáo cuối 03/11/2026 rồi chuyển PAUSED, hoặc thực hiện ngay lần đầu chạy muộn sau ngày đó. Đây là lệnh kết thúc trong tác vụ, không phải hạn dừng cứng của bộ lập lịch.
+- Không có bài được người dùng duyệt cụ thể; không xuất bản.
