@@ -6,7 +6,7 @@ Repository: https://github.com/phamkhactruongbka-lab/cinetech-ai
 
 Pages, CI và Research chạy thủ công đã thành công ngày 26/10/2026. Xem `DEPLOYMENT_REPORT.md` để biết bằng chứng và phần còn lại.
 
-Website tĩnh về tin phim và thiết bị xem phim. Python chỉ dùng thư viện chuẩn; không cần API, không có dịch vụ trả phí, không cam kết doanh thu. Editor tạo bản nháp theo quy tắc, không phải LLM. Catalog hiện trống để tránh thông tin sản phẩm chưa xác minh.
+Website tĩnh về tin phim và thiết bị xem phim. Python chỉ dùng thư viện chuẩn; không cần API, không có dịch vụ trả phí, không cam kết doanh thu. Editor tạo bản nháp theo quy tắc, không phải LLM. Catalog có ba sản phẩm được đối chiếu nguồn nhà sản xuất; không có giá, đánh giá trải nghiệm hoặc affiliate.
 
 ## Chạy trên Windows (PowerShell)
 
@@ -54,7 +54,7 @@ py -3 agent/validate.py
 3. Tải lại trang để xem kết quả; khi có GitHub, kiểm tra diff rồi commit/push file `docs/data/published.json` bằng tài khoản của chủ dự án.
 4. Gỡ bài cục bộ bằng `py -3 agent/publish.py --id $articleId --withdraw`, sau đó commit/push bản cập nhật.
 
-Lệnh duyệt lưu bản chụp nội dung, thời điểm và người duyệt; sửa bản nháp không sửa bài đã đăng. Chạy lại Editor sẽ tạo lại bản nháp và ghi đè phần sửa chưa duyệt, vì vậy hoàn thành việc duyệt hoặc sao lưu trước khi chạy lại. Workflow không gọi lệnh duyệt. Đây là kiểm soát vận hành cho một người, không phải hệ thống xác thực chống người có quyền sửa repository; cần bảo vệ branch và kiểm tra diff khi làm việc nhóm.
+Lệnh duyệt lưu bản chụp nội dung, thời điểm và người duyệt; sửa bản nháp không sửa bài đã đăng. Editor giữ nguyên bản nháp và phần sửa theo ID; giới hạn hàng chờ là 200 bản, bản mới được hoãn khi đầy. Hàng chờ biên tập có nguồn được lưu riêng trong data/review_queue.json. Workflow không gọi lệnh duyệt. Đây là kiểm soát vận hành cho một người, không phải hệ thống xác thực chống người có quyền sửa repository; cần bảo vệ branch và kiểm tra diff khi làm việc nhóm.
 
 `data/` không được phục vụ bởi GitHub Pages khi chọn `/docs`, nhưng vẫn có thể đọc trong repository public. Không lưu dữ liệu nhạy cảm tại đây. HTTP server chạy từ gốc dự án chỉ dành cho loopback trên máy cá nhân.
 
@@ -70,7 +70,7 @@ Chủ dự án đã xác nhận repository công khai `phamkhactruongbka-lab/cin
 
 1. Tạo repository public thuộc tài khoản của bạn để dùng GitHub Pages trên gói Free. Đưa **nội dung bên trong thư mục này** lên gốc repo, bao gồm `.github`, `agent`, `tests`, `data`, `docs`.
 2. Trong Settings → Pages → Source chọn **Deploy from a branch**, chọn branch mặc định (thường `main`) và thư mục **/docs**, rồi Save.
-3. Bổ sung kênh liên hệ thực do bạn quản lý trong `docs/lien-he.html`; kiểm tra chính sách hosting trước khi công bố chính thức.
+3. Kênh liên hệ đã chọn là GitHub Issues của dự án; không gửi thông tin nhạy cảm vì đây là kênh công khai.
 4. Khi có URL triển khai thật, tạo sitemap, không sử dụng domain ví dụ:
 
 ```powershell
@@ -105,3 +105,19 @@ Tài liệu đã đối chiếu: [Pages](https://docs.github.com/en/pages/gettin
 ## Trạng thái kiểm chứng
 
 Xem `VERIFICATION.md` để phân biệt những gì đã chạy và phần phụ thuộc tài khoản bên ngoài. Không có analytics, doanh thu, tài khoản Affiliate, API hay LLM thật. Chưa thêm LLM vì MVP không cần và tránh phát sinh chi phí.
+
+## Harness và quy trình Ngày 2
+
+Xem `AGENT_HARNESS.md` cho vai trò agent, lệnh chạy và cơ chế phê duyệt; xem `EDITORIAL_REVIEW.md` để đọc ba bản nháp, `CATALOG_SOURCES.md` để kiểm tra nguồn sản phẩm. Các bản nháp do AI hỗ trợ biên tập trong phiên Codex; harness Python chỉ điều phối các bước xác định, không phải LLM tự viết bài.
+
+```powershell
+py -3.14 -X utf8 agent/harness.py
+# Thu thập mới; báo lỗi và giữ dữ liệu cũ nếu không có tin mới:
+py -3.14 -X utf8 agent/harness.py --collect
+# Chỉ chạy sau khi đọc và duyệt bản cụ thể:
+$articleId = Read-Host 'ID đã duyệt trong EDITORIAL_REVIEW.md'
+$reviewer = Read-Host 'Tên biên tập công khai'
+py -3.14 -X utf8 agent/publish.py --drafts data/review_queue.json --id $articleId --reviewer $reviewer --confirm-reviewed
+```
+
+Nếu `py` báo không tìm thấy Python, mở terminal mới hoặc dùng đường dẫn cài đặt trực tiếp: `& "$env:LOCALAPPDATA\Programs\Python\Python314\python.exe" -X utf8 agent/harness.py`.

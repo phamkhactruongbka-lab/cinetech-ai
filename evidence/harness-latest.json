@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-10-27T06:27:42.494446+00:00",
+  "status": "success",
+  "mode": "deterministic_no_llm",
+  "collect_requested": false,
+  "publication_performed": false,
+  "stages": [
+    {
+      "stage": "validate_research",
+      "count": 30,
+      "status": "ok"
+    },
+    {
+      "stage": "prepare_drafts",
+      "count": 10,
+      "deferred": 0,
+      "status": "ok"
+    },
+    {
+      "stage": "validate_public",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "stage": "validate_catalog",
+      "count": 3,
+      "status": "ok"
+    }
+  ],
+  "finished_at": "2026-10-27T06:27:42.502247+00:00"
+}

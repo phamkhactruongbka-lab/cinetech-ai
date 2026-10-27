@@ -1,0 +1,35 @@
+{
+  "drafts": [
+    {
+      "headline": "Phòng vé Việt: Trại buôn người đạt mốc 484 tỷ đồng theo VOH",
+      "source_url": "https://voh.com.vn/phim-anh/trai-buon-nguoi-lot-top-3-phim-viet-an-khach-nhat-lich-su-675597.html",
+      "source": "VOH",
+      "status": "needs_human_review",
+      "draft": "Theo VOH ngày 26/10/2026, Trại buôn người thu 484 tỷ đồng sau một tháng phát hành, xếp thứ ba trong bảng doanh thu phim Việt được bài báo dẫn. Tác phẩm đầu tay của Toni Dương Bảo Anh ra mắt ngày 25/9. Đây là số liệu tại thời điểm bài nguồn đăng, không phải doanh thu cập nhật trực tiếp.",
+      "verified_at": "2026-10-27T08:25:00+07:00",
+      "evidence_note": "Đã mở bài VOH ngày 26/10/2026 11:49 GMT+7; đoạn đầu nêu 484 tỷ, hạng ba, đạo diễn và ngày ra rạp. Chưa kiểm chứng độc lập dữ liệu gốc Box Office Vietnam. Không dùng 485 tỷ của VnExpress để trộn thời điểm.",
+      "id": "03d36d87bd378350"
+    },
+    {
+      "headline": "Tokyo 2026 dành không gian cho các nhà làm phim châu Á mới",
+      "source_url": "https://thethaovanhoa.vn/lhp-quoc-te-tokyo-2026-tham-vong-tro-thanh-cau-noi-dien-anh-toan-cau-20261026093550525.htm",
+      "source": "Thể thao & Văn hóa",
+      "status": "needs_human_review",
+      "draft": "Bài viết ngày 26/10/2026 của Thể thao & Văn hóa giới thiệu Asian Future tại Liên hoan phim quốc tế Tokyo như nơi các nhà làm phim trẻ châu Á trình bày tác phẩm. Chương trình CROSSCUT ASIA+ cũng đưa điện ảnh Đông Nam Á đến khán giả Nhật Bản. Hai hoạt động mở thêm không gian trao đổi cho những câu chuyện và cách kể đa dạng trong khu vực.",
+      "verified_at": "2026-10-27T08:25:00+07:00",
+      "evidence_note": "Đã mở bài nguồn, các đoạn Asian Future và CROSSCUT ASIA+ nêu phạm vi chương trình. Chỉ tóm tắt thông tin báo dẫn; chưa đối chiếu lịch chiếu chính thức của TIFF, không cung cấp lịch/mua vé.",
+      "id": "0eaea32abc3286be"
+    },
+    {
+      "headline": "Hồ sơ điện ảnh AI: dự án Gò Tam Tinh của Bona",
+      "source_url": "https://viettimes.vn/trung-quoc-dua-phim-truyen-ai-khong-can-dien-vien-dau-tien-ra-rap-20-trieu-ndt-cho-cuoc-thu-lua-post206680.html",
+      "source": "VietTimes",
+      "status": "needs_human_review",
+      "draft": "Trong bài đăng ngày 6/10/2026, VietTimes giới thiệu Gò Tam Tinh: Chuyện tương lai của Bona là phim dài 100 phút, dùng hình ảnh do AI tạo và không có diễn viên người thật trên màn ảnh. Bài nguồn khi đó nêu lịch dự kiến ra rạp ngày 23/10. Đây là thông tin giới thiệu dự án trước phát hành; bản tóm tắt này không xác nhận doanh thu hay kết quả ra rạp.",
+      "verified_at": "2026-10-27T08:25:00+07:00",
+      "evidence_note": "Đã mở bài VietTimes ngày 06/10/2026 20:11, phần mở đầu và thông báo Bona. Bài Thế giới điện ảnh từ RSS không tải được (Cache miss), nên thay bằng bài nền cùng dự án; không suy diễn lỗ/lãi từ tiêu đề RSS. Nguồn thứ cấp ghi Theo Sohu; chưa đối chiếu thông cáo gốc.",
+      "id": "64e81650810f45d8"
+    }
+  ],
+  "updated_at": "2026-10-27T08:25:00+07:00"
+}

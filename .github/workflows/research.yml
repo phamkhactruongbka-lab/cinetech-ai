@@ -26,11 +26,10 @@ jobs:
           python-version: '3.12'
       - name: Test before collecting
         run: python -m unittest discover -s tests -v
-      - name: Collect and validate private drafts
+      - name: Collect and validate research drafts
         run: |
           python agent/research.py
-          python agent/validate.py
-          python agent/editor.py
+          python agent/harness.py
       - name: Commit research only; never publish
         run: |
           git config user.name "github-actions[bot]"

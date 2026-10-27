@@ -24,6 +24,6 @@ async function render(payload, products={schema_version:1,products:[]}, fail=fal
  dom=await render({items:{} }); assert.match(dom.news.children[0].textContent,/Không tải/);
  dom=await render({},undefined,true); assert.match(dom.news.children[0].textContent,/Không tải/);
  dom=await render({items:[]},{schema_version:1,products:[{name:'Fixture',source_name:'Fixture',source_url:'https://example.org',verified_at:'2026-10-26',affiliate_url:'https://example.org/offer'}]});
- assert.match(dom.products.children[0].children[4].rel,/sponsored/);
+ assert.match(dom.products.children[0].children[5].rel,/sponsored/);
  console.log('PASS: DOM escaping, approval filter, HTTPS links, empty/error states, affiliate disclosure');
 })().catch(err=>{console.error(err);process.exitCode=1});

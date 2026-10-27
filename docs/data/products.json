@@ -1,1 +1,32 @@
-{"schema_version": 1, "products": []}
+{
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "sony-wh-1000xm5",
+      "name": "Sony WH-1000XM5",
+      "category": "Tai nghe",
+      "source_name": "Sony Electronics",
+      "source_url": "https://electronics.sony.com/audio/headphones/headband/p/wh1000xm5-s",
+      "verified_at": "2026-10-27T08:24:59+07:00",
+      "affiliate_url": null
+    },
+    {
+      "id": "benq-ht2060",
+      "name": "BenQ HT2060",
+      "category": "Máy chiếu",
+      "source_name": "BenQ US",
+      "source_url": "https://www.benq.com/en-us/projector/cinema/ht2060.html",
+      "verified_at": "2026-10-27T08:24:59+07:00",
+      "affiliate_url": null
+    },
+    {
+      "id": "sonos-beam-gen-2",
+      "name": "Sonos Beam (Gen 2)",
+      "category": "Loa soundbar",
+      "source_name": "Sonos Support",
+      "source_url": "https://support.sonos.com/en/article/set-up-your-sonos-beam",
+      "verified_at": "2026-10-27T08:24:59+07:00",
+      "affiliate_url": null
+    }
+  ]
+}

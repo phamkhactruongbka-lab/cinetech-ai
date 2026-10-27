@@ -23,7 +23,7 @@ async function loadProducts() {
   const data=await response.json(); if(data.schema_version!==1 || !Array.isArray(data.products)) throw new Error(); box.replaceChildren();
   for(const p of data.products) {
    if(!p || !safeURL(p.source_url) || !Number.isFinite(Date.parse(p.verified_at)) || typeof p.name!=='string') continue;
-   const card=node('article',undefined,'card'); card.append(node('h3',p.name),node('p','Nguồn: '+p.source_name+' · Xác minh: '+new Date(p.verified_at).toLocaleDateString('vi-VN')),link('Thông tin từ nguồn ↗',safeURL(p.source_url)));
+   const card=node('article',undefined,'card'); card.append(node('h3',p.name),node('p',p.category||'Thiết bị','meta'),node('p','Nguồn: '+p.source_name+' · Xác minh: '+new Date(p.verified_at).toLocaleDateString('vi-VN')),link('Thông tin từ nguồn ↗',safeURL(p.source_url)));
    if(safeURL(p.affiliate_url)) card.append(node('p','CineTech AI có thể nhận hoa hồng từ liên kết này.'),link('Liên kết tiếp thị liên kết ↗',safeURL(p.affiliate_url),true)); box.append(card);
   }
   if(!box.children.length) box.append(node('p','Chưa có sản phẩm được xác minh. Các gợi ý bên dưới chỉ là nhóm thiết bị, không phải đánh giá sản phẩm.','card'));
