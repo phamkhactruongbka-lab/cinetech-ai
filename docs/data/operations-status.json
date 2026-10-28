@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-28T16:22:00+07:00",
+  "disclosure": "Chỉ số này được cập nhật từ các lần kiểm tra có bằng chứng. Không phải luồng dữ liệu ngân hàng hoặc CRM thời gian thực.",
+  "public_metrics": {
+    "published_articles": 3,
+    "verified_products": 3,
+    "available_cash_vnd": 0,
+    "cash_target_vnd": 550000,
+    "completed_orders": 0,
+    "confirmed_replies": 0
+  },
+  "last_verified": {
+    "ci": {
+      "status": "success",
+      "run_id": "40663454399",
+      "commit": "f01f618"
+    },
+    "pages": {
+      "status": "success",
+      "run_id": "40663453827",
+      "commit": "f01f618"
+    }
+  }
+}

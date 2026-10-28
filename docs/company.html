@@ -1023,9 +1023,9 @@
       </div>
       <div class="hud-stats" aria-label="Chỉ số vận hành">
         <div class="hud-pill"><strong id="kpi-depts">08</strong><span>Vị trí AI</span></div>
-        <div class="hud-pill"><strong id="kpi-published">13</strong><span>Bài đã đăng</span></div>
+        <div class="hud-pill"><strong id="kpi-published">—</strong><span>Bài đã duyệt</span></div>
         <div class="hud-pill"><strong id="kpi-products">03</strong><span>Thiết bị</span></div>
-        <div class="hud-pill"><strong id="kpi-tests">27/27</strong><span>Test QA (PASS)</span></div>
+        <div class="hud-pill"><strong id="kpi-tests">Đang tải</strong><span>CI gần nhất</span></div>
       </div>
     </div>
 
@@ -1079,12 +1079,12 @@
         <div class="holo-screen inspecting" id="scr-rnd"
              style="transform: translate3d(-295px, 0px, -95px) rotateY(38deg);"
              onclick="sendCeoTo(0)">
-          <div class="scr-head"><span>P.101 · SĂN TIN & R&D</span><span class="scr-status">● ACTIVE 09:15</span></div>
+          <div class="scr-head"><span>P.101 · SĂN TIN & R&D</span><span class="scr-status" id="rnd-status">● CHỜ ĐỒNG BỘ</span></div>
           <div class="scr-name">Robot "Radar-503"</div>
           <div class="scr-role">Trưởng phòng Thu thập Dữ liệu · <span class="scr-code">research.py</span></div>
           <div class="scr-hud">
-            <div class="scr-bar-row"><span>Quét RSS: 30/30 tin chuẩn</span><strong>100%</strong></div>
-            <div class="scr-bar"><div class="scr-fill" style="width:100%"></div></div>
+            <div class="scr-bar-row"><span id="rnd-detail">Không suy ra trạng thái RSS khi chưa có lần chạy</span><strong>—</strong></div>
+            <div class="scr-bar"><div class="scr-fill" style="width:0%"></div></div>
             <div class="holo-telemetry"><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div></div>
           </div>
           <!-- Robot 3D ngồi gõ laptop nổi phía trước màn hình -->
@@ -1118,7 +1118,7 @@
         <div class="holo-screen" id="scr-qa"
              style="transform: translate3d(155px, 0px, -235px) rotateY(-16deg);"
              onclick="sendCeoTo(2)">
-          <div class="scr-head"><span>P.201 · PHÁP CHẾ & QA</span><span class="scr-status">● 20/20 PASS</span></div>
+          <div class="scr-head"><span>P.201 · PHÁP CHẾ & QA</span><span class="scr-status">● XEM CI GẦN NHẤT</span></div>
           <div class="scr-name">Robot "Cyber-Guard"</div>
           <div class="scr-role">Giám đốc Kiểm toán & Bảo mật · <span class="scr-code">validate.py</span></div>
           <div class="scr-hud">
@@ -1137,12 +1137,12 @@
         <div class="holo-screen" id="scr-devops"
              style="transform: translate3d(295px, 0px, -95px) rotateY(-38deg);"
              onclick="sendCeoTo(3)">
-          <div class="scr-head"><span>P.202 · HẠ TẦNG DEVOPS</span><span class="scr-status">● CI/CD GREEN</span></div>
+          <div class="scr-head"><span>P.202 · HẠ TẦNG DEVOPS</span><span class="scr-status" id="devops-status">● CHỜ ĐỒNG BỘ</span></div>
           <div class="scr-name">Robot "Cron-Ops"</div>
           <div class="scr-role">Kỹ sư trưởng Tự động hóa · <span class="scr-code">workflows/</span></div>
           <div class="scr-hud">
-            <div class="scr-bar-row"><span>Actions 09:15 & Pages xanh</span><strong>90%</strong></div>
-            <div class="scr-bar"><div class="scr-fill" style="width:90%"></div></div>
+            <div class="scr-bar-row"><span id="devops-detail">Đang lấy kết quả Actions công khai</span><strong>—</strong></div>
+            <div class="scr-bar"><div class="scr-fill" style="width:0%"></div></div>
             <div class="holo-telemetry"><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div></div>
           </div>
           <div class="worker-3d-fig">
@@ -1175,11 +1175,11 @@
         <div class="holo-screen" id="scr-finance"
              style="transform: translate3d(0px, 0px, 205px) rotateY(0deg);"
              onclick="sendCeoTo(5)">
-          <div class="scr-head"><span>P.104 · TÀI CHÍNH & KẾ TOÁN</span><span class="scr-status">● VỐN 0Đ · CẤM PHÁT SINH</span></div>
+          <div class="scr-head"><span>P.104 · TÀI CHÍNH & KẾ TOÁN</span><span class="scr-status" id="finance-status">● THEO DỮ LIỆU ĐỐI SOÁT</span></div>
           <div class="scr-name">Robot "Ledger-Fin"</div>
-          <div class="scr-role">Trưởng phòng Kế toán & Dòng tiền · <span class="scr-code">data/cashflow.json</span></div>
+          <div class="scr-role">Trưởng phòng Kế toán & Dòng tiền · <span class="scr-code">operations-status.json</span></div>
           <div class="scr-hud">
-            <div class="scr-bar-row"><span id="fin-progress-text">Vốn: 0đ (Hết vốn) · Chi: 0đ | Cần thu 550k trước 20/11</span><strong id="fin-progress-pct">0%</strong></div>
+            <div class="scr-bar-row"><span id="fin-progress-text">Đang tải số liệu công khai có mốc thời gian</span><strong id="fin-progress-pct">—</strong></div>
             <div class="scr-bar"><div class="scr-fill" id="fin-progress-fill" style="width:0%; background: linear-gradient(90deg, #ef4444, #10b981);"></div></div>
             <div class="holo-telemetry"><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div><div class="tele-bar"></div></div>
           </div>
@@ -1254,15 +1254,15 @@
       <div class="dash-header">
         <div class="dash-title-group">
           <h2>🚀 TRUNG TÂM GIÁM SÁT TIẾN ĐỘ & QUY TRÌNH TỰ ĐỘNG HÓA</h2>
-          <p>Kế hoạch dòng tiền sinh tồn: Thu ≥ 550.000đ trước 20/11 để gia hạn ChatGPT Plus ngày 22/11 · Chi phí 0 VNĐ tuyệt đối</p>
+          <p id="ops-as-of">Đang tải trạng thái vận hành công khai có dấu thời điểm...</p>
         </div>
         <div class="dash-kpis">
           <div class="dash-kpi-card">
-            <div class="dash-kpi-val safe">0 VNĐ</div>
-            <div class="dash-kpi-lbl">Vốn khả dụng (Cấm chi)</div>
+            <div class="dash-kpi-val safe" id="cash-available">—</div>
+            <div class="dash-kpi-lbl">Tiền khả dụng đã xác nhận</div>
           </div>
           <div class="dash-kpi-card">
-            <div class="dash-kpi-val alert">0đ / 550k</div>
+            <div class="dash-kpi-val alert" id="cash-target">—</div>
             <div class="dash-kpi-lbl">Quỹ sống còn (Hạn 20/11)</div>
           </div>
           <div class="dash-kpi-card">
@@ -1270,8 +1270,8 @@
             <div class="dash-kpi-lbl">Thời gian còn lại</div>
           </div>
           <div class="dash-kpi-card">
-            <div class="dash-kpi-val">900.000 đ</div>
-            <div class="dash-kpi-lbl">Mục tiêu bán thử nghiệm</div>
+            <div class="dash-kpi-val" id="ci-summary">Đang tải</div>
+            <div class="dash-kpi-lbl">Actions gần nhất</div>
           </div>
         </div>
       </div>
@@ -1320,7 +1320,7 @@
           <div class="pipe-node">
             <div class="pipe-name">1. Săn tin R&D</div>
             <div class="pipe-tag">agent/research.py</div>
-            <div class="pipe-stat">● RSS 09:15 PASS</div>
+            <div class="pipe-stat">● Chỉ cập nhật sau lần chạy có bằng chứng</div>
           </div>
           <div class="pipe-node">
             <div class="pipe-name">2. Ban Biên Tập</div>
@@ -1335,7 +1335,7 @@
           <div class="pipe-node">
             <div class="pipe-name">4. Pháp Chế QA</div>
             <div class="pipe-tag">agent/validate.py</div>
-            <div class="pipe-stat">● 27/27 Tests PASS</div>
+            <div class="pipe-stat">● Xem kết quả CI công khai</div>
           </div>
           <div class="pipe-node">
             <div class="pipe-name">5. Danh Mục Thiết Bị</div>
@@ -1345,12 +1345,12 @@
           <div class="pipe-node">
             <div class="pipe-name">6. Kế Toán & Dòng Tiền</div>
             <div class="pipe-tag">data/cashflow.json</div>
-            <div class="pipe-stat">● Vốn 0đ · Khóa Chi</div>
+            <div class="pipe-stat">● Chỉ ghi tiền đã được xác nhận</div>
           </div>
           <div class="pipe-node">
             <div class="pipe-name">7. Báo Cáo Điều Hành</div>
             <div class="pipe-tag">report_generator.py</div>
-            <div class="pipe-stat">● Email Tự Động</div>
+            <div class="pipe-stat">● Báo cáo nháp, không tự gửi</div>
           </div>
           <div class="pipe-node">
             <div class="pipe-name">8. Giao Diện 3D</div>
@@ -1360,32 +1360,9 @@
         </div>
       </div>
 
-      <!-- 3. DANH SÁCH 20 SHOP MỤC TIÊU (4 ĐỢT CHIẾN DỊCH TIẾP CẬN) -->
       <div class="leads-box">
-        <div class="leads-header-row">
-          <div class="section-tag" style="margin-bottom:0;">🎯 KHO VŨ KHÍ TIẾP CẬN 20 SHOP MỤC TIÊU (CHI PHÍ 0Đ)</div>
-          <div class="leads-tabs" role="tablist">
-            <button type="button" class="leads-tab-btn active" onclick="switchLeadsBatch(0, this)">Đợt 1 (Shop 1-5)</button>
-            <button type="button" class="leads-tab-btn" onclick="switchLeadsBatch(1, this)">Đợt 2 (Shop 6-10)</button>
-            <button type="button" class="leads-tab-btn" onclick="switchLeadsBatch(2, this)">Đợt 3 (Shop 11-15)</button>
-            <button type="button" class="leads-tab-btn" onclick="switchLeadsBatch(3, this)">Đợt 4 (Shop 16-20)</button>
-          </div>
-        </div>
-        <div class="leads-grid" id="leadsGridContainer">
-          <!-- Render dynamically by JS -->
-        </div>
-      </div>
-
-      <!-- 4. TRÌNH MÔ PHỎNG DÒNG TIỀN & MỐC SỐNG CÒN 550.000 VNĐ -->
-      <div class="sim-box">
-        <div class="section-tag">💡 BÀN ĐIỀU KHIỂN DÒNG TIỀN & MÔ PHỎNG MỐC 550.000 VNĐ</div>
-        <p style="font-size:0.75rem; color:#94a3b8; margin:0 0 10px 0;">Bấm các nút bên dưới để mô phỏng tiến độ cọc / thực thu và xem thanh tiến độ & đồng hồ sống còn phản hồi tức thì:</p>
-        <div class="sim-bar">
-          <button type="button" class="sim-btn" onclick="simulateCash(225000)">+225.000đ (Nhận Cọc Đơn 1)</button>
-          <button type="button" class="sim-btn" onclick="simulateCash(450000)">+450.000đ (Thu Đủ Đơn 1)</button>
-          <button type="button" class="sim-btn primary" onclick="simulateCash(675000)">+675.000đ (Cán Đích Quỹ 550k! 🎉)</button>
-          <button type="button" class="sim-btn reset" onclick="resetCash()">↺ Trở về 0đ (Thực tế hiện tại)</button>
-        </div>
+        <div class="section-tag">🔒 DỮ LIỆU KHÁCH HÀNG ĐƯỢC GIỮ RIÊNG</div>
+        <p style="font-size:0.8rem; color:#94a3b8; margin:0;">Danh sách lead, kênh liên hệ, nội dung chào hàng và tiền giao dịch không được hiển thị công khai. Chỉ số tài chính ở trên phản ánh dữ liệu đã được xác nhận và có thời điểm kiểm tra.</p>
       </div>
     </section>
   </main>
@@ -1412,41 +1389,41 @@
         id: 'scr-rnd',
         x: -165,
         z: -25,
-        speech: '🔍 Kiểm tra R&D: 30/30 tin chuẩn (100%)',
+        speech: '🔍 Kiểm tra R&D: chờ lần thu thập có bằng chứng',
         title: 'Tổng Biên Tập đang kiểm tra: Phòng Săn Tin & R&D (Radar-503)',
         img: 'assets/robot-worker.png',
-        desc: 'Quét RSS Google News lúc 09:15 sáng, lọc trùng tiêu đề & tự động giữ bản cũ nếu mạng lỗi.',
-        tags: ['agent/research.py', '30/30 tin chuẩn', 'Tiến độ: 100%', 'CEO: Đạt chuẩn']
+        desc: 'Thu thập RSS theo workflow; giữ dữ liệu cũ khi lỗi. Trạng thái hiển thị chỉ có giá trị tại lần kiểm tra được ghi nhận.',
+        tags: ['agent/research.py', 'Cần quan sát run thực tế', 'Không tự đăng bài', 'Chờ dữ liệu']
       },
       {
         id: 'scr-editor',
         x: -80,
         z: -115,
-        speech: '🔍 Kiểm tra Biên Tập: 10 nháp + 3 bài sâu (75%)',
+        speech: '🔍 Kiểm tra Biên Tập: nội dung chờ người phụ trách duyệt',
         title: 'Tổng Biên Tập đang kiểm tra: Ban Biên Tập Nội Dung (Neuro-Editor)',
         img: 'assets/robot-worker.png',
-        desc: 'Tạo mã SHA-256 cố định cho bản nháp, giữ nguyên các bài đang biên tập trong hàng chờ 200 bài.',
-        tags: ['editor.py · harness.py', '10 nháp + 3 bài sâu', 'Tiến độ: 75%', 'Chủ dự án: Đã duyệt 3 bài']
+        desc: 'Bản nháp được giữ riêng và chỉ xuất bản sau phê duyệt của người phụ trách.',
+        tags: ['editor.py · harness.py', 'Không tự duyệt', 'Không tự xuất bản', 'Dữ liệu theo lần đồng bộ']
       },
       {
         id: 'scr-qa',
         x: 80,
         z: -115,
-        speech: '🔍 Kiểm tra Pháp Chế QA: 20/20 Test Pass (100%)',
+        speech: '🔍 Kiểm tra Pháp Chế QA: xem kết quả CI gần nhất',
         title: 'Tổng Biên Tập đang kiểm tra: Phòng Pháp Chế & QA (Cyber-Guard)',
         img: 'assets/robot-worker.png',
         desc: 'Kiểm toán dữ liệu fail-closed: chặn mọi link không HTTPS, chống XSS và bắt buộc chữ ký duyệt.',
-        tags: ['validate.py · tests/', '20/20 Test Pass', 'Tiến độ: 100%', 'CEO: An toàn tuyệt đối']
+        tags: ['validate.py · tests/', 'Kết quả qua CI', 'Không khẳng định liên tục', 'Dữ liệu công khai']
       },
       {
         id: 'scr-devops',
         x: 165,
         z: -25,
-        speech: '🔍 Kiểm tra DevOps: Cron 09:15 & Pages Xanh (90%)',
+        speech: '🔍 Kiểm tra DevOps: trạng thái từ GitHub Actions công khai',
         title: 'Tổng Biên Tập đang kiểm tra: Phòng Hạ Tầng & DevOps (Cron-Ops)',
         img: 'assets/robot-worker.png',
-        desc: 'Vận hành GitHub Actions lúc 09:15 sáng, kiểm tra Pull Request tự động và giám sát lúc 09:00.',
-        tags: ['.github/workflows/', 'CI/CD & Pages Xanh', 'Tiến độ: 90%', 'CEO: Đang theo dõi tuần 1']
+        desc: 'Giám sát endpoint theo lịch; trạng thái có thể chậm hoặc bị thiếu khi GitHub Actions trì hoãn.',
+        tags: ['.github/workflows/', 'GitHub Actions API', 'Theo lịch 15 phút', 'Không cam kết uptime']
       },
       {
         id: 'scr-biz',
@@ -1472,11 +1449,11 @@
         id: 'scr-ui',
         x: -125,
         z: 105,
-        speech: '🔍 Kiểm tra Giao Diện: Tự động khớp Poster & Chủ đề theo nội dung phim (100%)',
+        speech: '🔍 Kiểm tra Giao Diện: dữ liệu ảnh được rà soát theo nội dung',
         title: 'Tổng Biên Tập đang kiểm tra: Phòng Giao Diện & SEO (Astro-Cinema)',
         img: 'assets/robot-worker.png',
-        desc: 'Tự động tìm kiếm từ khóa nội dung phim (Khoa học viễn tưởng & AI, Hành động & Bí ẩn, Liên hoan phim) để phối màu giao diện, chọn Poster chủ đề và gợi ý thiết bị giải trí phù hợp thu hút người xem.',
-        tags: ['ui_designer.py · app.js', 'Tự động khớp Poster theo phim', 'Tìm kiếm & Lọc chủ đề trực tiếp', 'Tiến độ: 100%']
+        desc: 'Ảnh thẻ tin được gán theo chủ đề đã nhận diện; cần kiểm tra trực quan sau mỗi thay đổi nội dung.',
+        tags: ['ui_designer.py · app.js', 'Ánh xạ ảnh theo chủ đề', 'Kiểm tra trực quan', 'Không phải dữ liệu thời gian thực']
       }
     ];
 
@@ -1623,242 +1600,82 @@
       tickClock();
     }
 
-    // ĐỒNG BỘ DỮ LIỆU THẬT TỪ JSON CÔNG KHAI
+    // Dữ liệu công khai có dấu thời điểm: không dùng số mô phỏng hoặc dữ liệu khách riêng.
+    const formatVnd = value => Number(value).toLocaleString('vi-VN') + 'đ';
+    const setText = (id, value) => {
+      const element = document.getElementById(id);
+      if (element) element.textContent = value;
+    };
+
     async function syncLiveMetrics() {
       try {
-        const pubRes = await fetch('data/published.json');
-        if (pubRes.ok) {
-          const pubData = await pubRes.json();
-          if (Array.isArray(pubData.items)) {
-            document.getElementById('kpi-published').textContent = String(pubData.items.length).padStart(2, '0');
+        const [publishedResponse, productsResponse, statusResponse] = await Promise.all([
+          fetch('data/published.json', { cache: 'no-store' }),
+          fetch('data/products.json', { cache: 'no-store' }),
+          fetch('data/operations-status.json', { cache: 'no-store' })
+        ]);
+        if (publishedResponse.ok) {
+          const published = await publishedResponse.json();
+          if (Array.isArray(published.items)) setText('kpi-published', String(published.items.length).padStart(2, '0'));
+        }
+        if (productsResponse.ok) {
+          const products = await productsResponse.json();
+          if (Array.isArray(products.products)) {
+            setText('kpi-products', String(products.products.length).padStart(2, '0'));
+            setText('biz-progress-text', products.products.length + ' thiết bị có nguồn công khai');
           }
         }
-      } catch {}
-
-      try {
-        const prodRes = await fetch('data/products.json');
-        if (prodRes.ok) {
-          const prodData = await prodRes.json();
-          if (Array.isArray(prodData.products)) {
-            const count = prodData.products.length;
-            document.getElementById('kpi-products').textContent = String(count).padStart(2, '0');
-            document.getElementById('biz-progress-text').textContent = count + ' thiết bị xác minh';
-          }
-        }
-      } catch {}
-
-      try {
-        const finRes = await fetch('data/cashflow.json');
-        if (finRes.ok) {
-          const finData = await finRes.json();
-          if (finData && finData.survival_milestone) {
-            const m = finData.survival_milestone;
-            const collected = m.current_cash_available || 0;
-            const targetMin = m.minimum_cash_required || 550000;
-            const pct = Math.min(100, Math.round((collected / targetMin) * 100));
-
-            document.getElementById('fin-progress-text').textContent =
-              `Vốn: 0đ (Hết vốn) · Thu: ${collected.toLocaleString('vi-VN')}đ / ${targetMin.toLocaleString('vi-VN')}đ (Hạn 20/11)`;
-            document.getElementById('fin-progress-pct').textContent = `${pct}%`;
-            document.getElementById('fin-progress-fill').style.width = `${pct}%`;
-          }
-        }
-      } catch {}
-
-      try {
-        const deadlineDate = new Date('2026-11-20T23:59:59');
-        const diffDays = Math.max(0, Math.ceil((deadlineDate - new Date()) / (1000 * 60 * 60 * 24)));
-        const countEl = document.getElementById('dashCountdown');
-        if (countEl) countEl.textContent = `${diffDays} Ngày`;
-      } catch {}
-    }
-
-    // =============================================================
-    // DỮ LIỆU & XỬ LÝ 20 SHOP MỤC TIÊU & MÔ PHỎNG DÒNG TIỀN
-    // =============================================================
-    const LEADS_DATA = [
-      // ĐỢT 1: SHOP 1 - 5
-      [
-        {
-          num: 1, channel: 'SHOPEE/FB', title: 'Shop Máy Chiếu HY300',
-          desc: 'Máy chiếu mini xoay 180° trần nhà phân khúc sinh viên/phòng ngủ giá rẻ.',
-          pitch: 'Chào shop! Thấy mẫu máy chiếu mini HY300 của shop rất hot. CineTech AI gửi tặng shop 1 bài viết mẫu rạp phim trần nhà: "BIẾN TRẦN NHÀ THÀNH RẠP PHIM 100 INCH CHỈ SAU 30 GIÂY NẰM GIƯỜNG!". Gói viết trọn 5 bài + 5 mô tả bên mình chỉ 450.000đ.'
-        },
-        {
-          num: 2, channel: 'FACEBOOK', title: 'Đại Lý Beecube X1',
-          desc: 'Máy chiếu thông minh Full HD chính hãng bảo hành 12 tháng.',
-          pitch: 'Chào shop! Dòng Beecube của shop hình ảnh rất trong. CineTech AI gửi tặng bài viết mẫu: "RẠP CHIẾU PHIM MINI TẠI GIA — TRẢI NGHIỆM MÀN HÌNH 120 INCH FULL HD CỰC CHILL". Gói 5 bài chuẩn SEO chỉ 450.000đ.'
-        },
-        {
-          num: 3, channel: 'SHOPEE', title: 'Shop Tai Nghe ANC Over-Ear',
-          desc: 'Tai nghe chụp tai chống ồn chủ động học tập và chạy deadline.',
-          pitch: 'Chào shop! Dòng tai nghe ANC của shop rất hợp dân văn phòng. CineTech AI tặng bài viết: "TẬP TRUNG TỐI ĐA TRONG MỌI KHÔNG GIAN — BẬT NHẠC LÊN VÀ TẮT HẾT TIẾNG ỒN!". Gói 5 bài viết chỉ 450.000đ.'
-        },
-        {
-          num: 4, channel: 'FACEBOOK', title: 'Shop Soundbar TV',
-          desc: 'Loa thanh nâng cấp lời thoại phim ảnh cho TV phòng khách gia đình.',
-          pitch: 'Chào shop! Dòng soundbar của shop nâng cấp tiếng TV rất hay. CineTech AI tặng bài viết mẫu: "LỜI THOẠI PHIM KHÔNG RÕ RÀNG? NÂNG CẤP ÂM THANH PHÒNG KHÁCH NGAY HÔM NAY!". Gói 5 bài chỉ 450.000đ.'
-        },
-        {
-          num: 5, channel: 'FACEBOOK', title: 'Shop Kệ Gỗ Desk Setup',
-          desc: 'Kệ nâng màn hình công thái học chống đau mỏi cổ vai gáy.',
-          pitch: 'Chào shop! Mẫu kệ gỗ nâng màn hình của shop decor rất đẹp. CineTech AI tặng bài viết: "GÓC LÀM VIỆC BỪA BỘN Khiến BẠN MẤT CẢM HỨNG? ĐÂY LÀ GIẢI PHÁP!". Gói 5 bài trọn gói 450.000đ.'
-        }
-      ],
-      // ĐỢT 2: SHOP 6 - 10
-      [
-        {
-          num: 6, channel: 'SHOPEE/FB', title: 'Shop Máy Chiếu Wanbo',
-          desc: 'Máy chiếu retro phong cách rạp phim cổ điển cho phòng ngủ hiện đại.',
-          pitch: 'Chào shop! Dòng Wanbo thiết kế retro của shop rất tinh tế. CineTech AI tặng shop bài viết: "MANG PHONG CÁCH RẠP PHIM CỔ ĐIỂN VÀO GÓC PHÒNG NGỦ CỦA BẠN 🎞️✨". Gói viết 5 bài chỉ 450.000đ.'
-        },
-        {
-          num: 7, channel: 'SHOPEE/FB', title: 'Shop Đèn Treo Màn Hình',
-          desc: 'Đèn treo màn hình chống chói mắt khi cày deadline ban đêm.',
-          pitch: 'Chào shop! Mẫu đèn treo màn hình bảo vệ mắt rất thiết thực. Tặng shop bài viết: "CÀY DEADLINE BAN ĐÊM MÀ MẮT VẪN ÊM — TẠI SAO BẠN CẦN ĐÈN TREO MÀN HÌNH?". Gói viết 5 bài giá 450.000đ.'
-        },
-        {
-          num: 8, channel: 'SHOPEE/FB', title: 'Shop Tai Nghe Thể Thao',
-          desc: 'Tai nghe Bluetooth earhook chống nước chuẩn cho gym và chạy bộ.',
-          pitch: 'Chào shop! Dòng tai nghe thể thao gài tai của shop rất chắc chắn. Tặng shop bài viết: "BỨT PHÁ MỌI GIỚI HẠN TẬP LUYỆN CÙNG ÂM NHẠC MẠNH MẼ!". Gói 5 bài viết chuyên sâu giá 450.000đ.'
-        },
-        {
-          num: 9, channel: 'SHOPEE/FB', title: 'Shop Chuột Công Thái Học',
-          desc: 'Chuột dọc chống mỏi cổ tay cho lập trình viên và kế toán.',
-          pitch: 'Chào shop! Mẫu chuột công thái học dáng đứng là cứu tinh cổ tay. Tặng shop bài viết: "TẠM BIỆT NỖI LO ĐAU MỎI CỔ TAY KHI LÀM VIỆC 8 TIẾNG VỚI CHUỘT CÔNG THÁI HỌC!". Gói 5 bài 450.000đ.'
-        },
-        {
-          num: 10, channel: 'SHOPEE/FB', title: 'Shop Thảm Da Deskpad',
-          desc: 'Thảm da 2 mặt trải bàn làm việc chống nước sang trọng.',
-          pitch: 'Chào shop! Mẫu thảm da lót bàn nâng tầm góc setup rất nhiều. Tặng shop bài viết mẫu: "NÂNG CẤP BÀN LÀM VIỆC CHỈ TRONG 5 GIÂY VỚI THẢM DA CAO CẤP!". Gói 5 bài trọn gói 450.000đ.'
-        }
-      ],
-      // ĐỢT 3: SHOP 11 - 15
-      [
-        {
-          num: 11, channel: 'SHOPEE/FB', title: 'Shop Phím Cơ Custom',
-          desc: 'Bàn phím cơ gõ đầm tiếng thocky, kết nối không dây 3 chế độ.',
-          pitch: 'Chào shop! Mẫu bàn phím cơ gõ đầm tay của shop rất chất. Tặng shop bài viết: "TIẾNG GÕ PHÍM THOCKY ĐẦM TAI — CẢM HỨNG LÀM VIỆC BÙNG NỔ MỖI NGÀY! ⌨️🎧". Gói 5 bài chỉ 450.000đ.'
-        },
-        {
-          num: 12, channel: 'SHOPEE/FB', title: 'Shop Micro Livestream',
-          desc: 'Micro USB Cardioid cắm nhận ngay cho streamer, giáo viên và podcast.',
-          pitch: 'Chào shop! Micro thu âm USB của shop lọc âm rất tốt. Tặng shop bài viết mẫu: "NÓI CHUYỆN RÕ RÀNG, HẾT TẠP ÂM — NÂNG CẤP CHẤT LƯỢNG LIVESTREAM CHUYÊN NGHIỆP!". Gói 5 bài 450.000đ.'
-        },
-        {
-          num: 13, channel: 'SHOPEE/FB', title: 'Shop Đèn LED Ambient RGB',
-          desc: 'Đèn LED nháy theo nhạc và dán cạnh bàn tạo không gian gaming cực nghệ.',
-          pitch: 'Chào shop! Dàn LED RGB nháy theo nhạc của shop decor rất đẹp. Tặng shop bài viết: "BIẾN GÓC PHÒNG ĐƠN ĐIỆU THÀNH KHÔNG GIAN CYBERPUNK CỰC NGHỆ! 🌈⚡". Gói 5 bài trọn gói 450.000đ.'
-        },
-        {
-          num: 14, channel: 'SHOPEE/FB', title: 'Shop Arm Nâng Màn Hình',
-          desc: 'Tay nâng màn hình piston trợ lực giải phóng diện tích mặt bàn.',
-          pitch: 'Chào shop! Arm nâng màn hình piston của shop chỉnh rất êm. Tặng shop bài viết: "TẠI SAO 90% DÂN CÔNG NGHỆ HIỆN ĐẠI ĐỀU CHUYỂN SANG DÙNG TAY NÂNG MÀN HÌNH?". Gói 5 bài 450.000đ.'
-        },
-        {
-          num: 15, channel: 'SHOPEE/FB', title: 'Shop Củ Sạc Nhanh GaN',
-          desc: 'Củ sạc công nghệ GaN nhỏ gọn công suất lớn sạc laptop và điện thoại.',
-          pitch: 'Chào shop! Củ sạc nhanh GaN nhỏ gọn của shop rất tiện. Tặng shop bài viết mẫu: "TẠM BIỆT DÀN CỦ SẠC CỒNG KỀNH — CHỈ 1 CỦ SẠC NHỎ BẰNG HỘP DIÊM CHO MỌI THIẾT BỊ! ⚡". Gói 5 bài 450.000đ.'
-        }
-      ],
-      // ĐỢT 4: SHOP 16 - 20
-      [
-        {
-          num: 16, channel: 'SHOPEE/FB', title: 'Shop DAC / Amply Hi-Fi',
-          desc: 'Bộ giải mã âm thanh mini Hi-Res Lossless cho điện thoại và laptop.',
-          pitch: 'Chào shop! Dongle DAC giải mã của shop rất được lòng anh em audiophile. Tặng shop bài viết: "MỞ KHÓA TOÀN BỘ CHI TIẾT BẢN NHẠC YÊU THÍCH VỚI GIẢI MÃ ÂM THANH HI-RES!". Gói 5 bài 450.000đ.'
-        },
-        {
-          num: 17, channel: 'SHOPEE/FB', title: 'Shop Ghế Công Thái Học',
-          desc: 'Ghế xoay đệm lưới thoáng mát chống đau mỏi lưng và cột sống.',
-          pitch: 'Chào shop! Mẫu ghế ergonomic đệm lưới của shop rất êm. Tặng shop bài viết: "ĐẦU TƯ CHO CHIẾC GHẾ LÀ ĐẦU TƯ CHO CỘT SỐNG 20 NĂM TỚI! 🪑🧘‍♂️". Gói 5 bài chuyên sâu 450.000đ.'
-        },
-        {
-          num: 18, channel: 'SHOPEE/FB', title: 'Shop Loa Bluetooth IP67',
-          desc: 'Loa dã ngoại kháng nước chống va đập pin trâu cho picnic và du lịch.',
-          pitch: 'Chào shop! Mẫu loa dã ngoại chống nước IP67 của shop rất bền. Tặng shop bài viết: "ÂM NHẠC KHÔNG GIỚI HẠN — CÙNG BẠN BĂNG QUA MỌI CUNG ĐƯỜNG DÃ NGOẠI! 🏕️🔊". Gói 5 bài 450.000đ.'
-        },
-        {
-          num: 19, channel: 'SHOPEE/FB', title: 'Shop Tay Cầm Chơi Game',
-          desc: 'Tay cầm không dây cần gạt từ tính Hall Effect chống trôi tuyệt đối.',
-          pitch: 'Chào shop! Mẫu tay cầm cần Hall Effect chống drift của shop rất hot. Tặng shop bài viết: "CHIẾN GAME ĐỈNH CAO — CẦN GẠT TỪ TÍNH CHỐNG TRÔI TUYỆT ĐỐI! 🎮⚡". Gói 5 bài chuẩn insight 450.000đ.'
-        },
-        {
-          num: 20, channel: 'SHOPEE/FB', title: 'Shop Sò Lạnh Gaming Phone',
-          desc: 'Quạt tản nhiệt bán dẫn TEC làm lạnh siêu tốc chống tụt FPS khi chơi game.',
-          pitch: 'Chào shop! Món sò lạnh tản nhiệt hạ nhiệt thần tốc của shop rất đỉnh. Tặng shop bài viết: "MÁY NÓNG TỤT FPS KHI ĐANG COMBAT? ĐÃ ĐẾN LÚC ĐÓNG BĂNG NHIỆT ĐỘ ĐIỆN THOẠI! ❄️📱". Gói 5 bài 450.000đ.'
-        }
-      ]
-    ];
-
-    let currentBatchIndex = 0;
-
-    function renderLeads(batchIdx) {
-      currentBatchIndex = batchIdx;
-      const container = document.getElementById('leadsGridContainer');
-      if (!container) return;
-      const items = LEADS_DATA[batchIdx] || [];
-      container.textContent = ''; // clear safely
-
-      items.forEach((item, idx) => {
-        const card = document.createElement('div');
-        card.className = 'lead-card';
-
-        const head = document.createElement('div');
-        head.className = 'lead-head';
-        const spNum = document.createElement('span');
-        spNum.textContent = `MỤC TIÊU ${item.num}`;
-        const spChan = document.createElement('span');
-        spChan.textContent = item.channel;
-        head.append(spNum, spChan);
-
-        const title = document.createElement('div');
-        title.className = 'lead-title';
-        title.textContent = item.title;
-
-        const desc = document.createElement('div');
-        desc.className = 'lead-desc';
-        desc.textContent = item.desc;
-
-        const actions = document.createElement('div');
-        actions.className = 'lead-actions';
-        const st = document.createElement('div');
-        st.className = 'lead-status';
-        st.textContent = '✉️ Bài mẫu sẵn';
-
-        const copyBtn = document.createElement('button');
-        copyBtn.type = 'button';
-        copyBtn.className = 'copy-pitch-btn';
-        copyBtn.textContent = '📋 Chép tin mẫu';
-        copyBtn.onclick = () => copyLeadPitch(batchIdx, idx, copyBtn);
-        actions.append(st, copyBtn);
-
-        card.append(head, title, desc, actions);
-        container.appendChild(card);
-      });
-    }
-
-    function switchLeadsBatch(batchIdx, btn) {
-      document.querySelectorAll('.leads-tab-btn').forEach(b => b.classList.remove('active'));
-      if (btn) btn.classList.add('active');
-      renderLeads(batchIdx);
-    }
-
-    function copyLeadPitch(batchIdx, idx, btn) {
-      const item = LEADS_DATA[batchIdx][idx];
-      if (!item) return;
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(item.pitch).then(() => {
-          const old = btn.textContent;
-          btn.textContent = '✓ Đã chép!';
-          setTimeout(() => { btn.textContent = old; }, 1800);
-        }).catch(() => {
-          prompt('Sao chép tin nhắn chào hàng bên dưới:', item.pitch);
-        });
-      } else {
-        prompt('Sao chép tin nhắn chào hàng bên dưới:', item.pitch);
+        if (!statusResponse.ok) throw new Error('Không đọc được trạng thái vận hành');
+        const status = await statusResponse.json();
+        const metrics = status.public_metrics || {};
+        const verifiedAt = status.as_of ? new Date(status.as_of) : null;
+        const asOf = verifiedAt && !Number.isNaN(verifiedAt.valueOf())
+          ? verifiedAt.toLocaleString('vi-VN')
+          : 'không rõ thời điểm';
+        setText('ops-as-of', 'Dữ liệu công khai xác minh lần cuối: ' + asOf + '. ' + (status.disclosure || ''));
+        const cash = Number(metrics.available_cash_vnd || 0);
+        const target = Number(metrics.cash_target_vnd || 550000);
+        const pct = target > 0 ? Math.min(100, Math.round(cash / target * 100)) : 0;
+        setText('cash-available', formatVnd(cash));
+        setText('cash-target', formatVnd(cash) + ' / ' + formatVnd(target));
+        setText('fin-progress-text', 'Tiền khả dụng đã xác nhận: ' + formatVnd(cash) + ' / ' + formatVnd(target));
+        setText('fin-progress-pct', pct + '%');
+        document.getElementById('fin-progress-fill').style.width = pct + '%';
+      } catch (error) {
+        setText('ops-as-of', 'Không xác minh được dữ liệu vận hành ở lần tải này.');
+        setText('finance-status', '● CHƯA XÁC MINH');
       }
+
+      try {
+        const response = await fetch('https://api.github.com/repos/phamkhactruongbka-lab/cinetech-ai/actions/runs?per_page=5', {
+          headers: { Accept: 'application/vnd.github+json' }, cache: 'no-store'
+        });
+        if (!response.ok) throw new Error('GitHub Actions API unavailable');
+        const payload = await response.json();
+        const runs = Array.isArray(payload.workflow_runs) ? payload.workflow_runs : [];
+        const ci = runs.find(run => run.name === 'Validate pull requests');
+        const pages = runs.find(run => run.name === 'pages build and deployment');
+        if (!ci || !pages) throw new Error('Không có đủ run để xác minh');
+        const ciState = ci.status === 'completed' ? (ci.conclusion || 'unknown') : ci.status;
+        const pagesState = pages.status === 'completed' ? (pages.conclusion || 'unknown') : pages.status;
+        setText('kpi-tests', ciState.toUpperCase());
+        setText('ci-summary', 'CI: ' + ciState.toUpperCase());
+        setText('devops-status', '● CI ' + ciState.toUpperCase() + ' · PAGES ' + pagesState.toUpperCase());
+        setText('devops-detail', 'GitHub Actions: ' + new Date(ci.updated_at).toLocaleString('vi-VN'));
+        setText('rnd-status', '● LỊCH THEO WORKFLOW');
+        setText('rnd-detail', 'Nội dung mới vẫn cần người phụ trách duyệt trước khi đăng');
+      } catch (error) {
+        setText('kpi-tests', 'KHÔNG XÁC MINH');
+        setText('ci-summary', 'Không xác minh');
+        setText('devops-status', '● KHÔNG XÁC MINH');
+      }
+
+      const deadlineDate = new Date('2026-11-20T23:59:59+07:00');
+      const countEl = document.getElementById('dashCountdown');
+      if (countEl) countEl.textContent = Math.max(0, Math.ceil((deadlineDate - new Date()) / 86400000)) + ' Ngày';
     }
+
+    // Lead và nội dung tiếp cận là dữ liệu kinh doanh riêng, không hiển thị hoặc nhúng vào website công khai.
 
     // TRÌNH MÔ PHỎNG DÒNG TIỀN
     function simulateCash(amount) {
@@ -1900,7 +1717,7 @@
     tickClock();
     setInterval(tickClock, 1000);
     syncLiveMetrics();
-    renderLeads(0);
+    setInterval(syncLiveMetrics, 5 * 60 * 1000);
   </script>
 </body>
 </html>

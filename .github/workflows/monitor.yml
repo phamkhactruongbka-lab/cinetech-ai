@@ -1,0 +1,23 @@
+name: Monitor public site
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: public-site-monitor
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check public homepage
+        run: curl --fail --silent --show-error --max-time 20 https://phamkhactruongbka-lab.github.io/cinetech-ai/ -o /dev/null
+      - name: Check approved-publication data
+        run: curl --fail --silent --show-error --max-time 20 https://phamkhactruongbka-lab.github.io/cinetech-ai/data/published.json -o /dev/null
