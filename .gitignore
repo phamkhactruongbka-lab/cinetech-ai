@@ -11,7 +11,6 @@ __pycache__/
 data/cashflow.json
 data/outreach_queue.json
 docs/data/cashflow.json
-docs/company.html
 sales/
 reports/
 OPERATIONAL_REVENUE_PLAN.md
@@ -22,7 +21,7 @@ ZERO_COST_GUARANTEE.md
 run_autopilot.bat
 run_autopilot.ps1
 agent/prospecting_assistant.py
-docs/assets/robot-*.png
+
 
 
 
