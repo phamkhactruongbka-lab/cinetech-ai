@@ -5,7 +5,25 @@ function link(text, url, affiliate=false) { const a=node('a',text); a.href=url; 
 
 function analyzeMovieContent(headline, draft, idx) {
  const text = ((headline || '') + ' ' + (draft || '')).toLowerCase();
- if (text.includes('ai') || text.includes('gò tam tinh') || text.includes('tương lai') || text.includes('hoạt hình') || text.includes('kỹ xảo') || text.includes('khoa học')) {
+ if (text.includes('gò tam tinh') || text.includes('bona')) {
+  return {
+   themeId: 'ai-film',
+   cardClass: 'card news-card theme-scifi',
+   poster: 'assets/poster-ai-go-tam-tinh.png',
+   genre: 'Điện ảnh AI',
+   deviceHint: 'Hồ sơ dự án phim AI'
+  };
+ }
+ if (text.includes('tokyo') || text.includes('liên hoan') || text.includes('châu á') || text.includes('quốc tế')) {
+  return {
+   themeId: 'festival',
+   cardClass: 'card news-card theme-festival',
+   poster: 'assets/poster-tokyo-festival.png',
+   genre: 'Liên hoan phim Quốc tế',
+   deviceHint: 'Sự kiện điện ảnh quốc tế'
+  };
+ }
+ if (/\bai\b/.test(text) || text.includes('tương lai') || text.includes('hoạt hình') || text.includes('kỹ xảo') || text.includes('khoa học')) {
   return {
    themeId: 'scifi',
    cardClass: 'card news-card theme-scifi',
@@ -21,15 +39,6 @@ function analyzeMovieContent(headline, draft, idx) {
    poster: 'assets/poster-mystery.png',
    genre: 'Phim hành động và bí ẩn',
    deviceHint: 'Gợi ý: Loa Soundbar rõ thoại'
-  };
- }
- if (text.includes('tokyo') || text.includes('đức') || text.includes('liên hoan') || text.includes('châu á') || text.includes('quốc tế')) {
-  return {
-   themeId: 'festival',
-   cardClass: 'card news-card theme-festival',
-   poster: 'assets/hero-cinema-room.png',
-   genre: 'Liên hoan phim Quốc tế',
-   deviceHint: 'Gợi ý: Tai nghe chống ồn'
   };
  }
  const pool = ['assets/poster-scifi.png', 'assets/poster-mystery.png', 'assets/hero-cinema-room.png'];
