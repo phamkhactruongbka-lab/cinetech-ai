@@ -2,7 +2,8 @@ name: Research phim moi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 2 * * *'
+    # Chạy 2 lần/ngày: 06:00 sáng (23:00 UTC) và 18:00 chiều (11:00 UTC) giờ Việt Nam
+    - cron: '0 23,11 * * *'
 permissions:
   contents: read
 concurrency:
