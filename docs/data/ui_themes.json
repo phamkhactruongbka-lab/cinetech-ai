@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28T09:44:09.485135+07:00",
+  "dominant_theme": "scifi",
+  "genre_counts": {
+    "scifi": 2,
+    "mystery": 1,
+    "festival": 0,
+    "cinema": 0
+  },
+  "articles": {
+    "03d36d87bd378350": {
+      "theme_id": "mystery",
+      "genre_label": "Phim hành động và bí ẩn",
+      "mood_tag": "Kịch tính · Tâm điểm phòng vé",
+      "poster": "assets/poster-mystery.png",
+      "accent_color": "#f59e0b",
+      "device_hint": "Phù hợp nghe với: Loa Soundbar âm trầm rõ thoại",
+      "matched_keywords": [
+        "trại buôn người",
+        "phòng vé",
+        "tỷ đồng"
+      ]
+    },
+    "0eaea32abc3286be": {
+      "theme_id": "scifi",
+      "genre_label": "Phim khoa học viễn tưởng & AI",
+      "mood_tag": "Viễn tưởng · Công nghệ điện ảnh",
+      "poster": "assets/poster-scifi.png",
+      "accent_color": "#38bdf8",
+      "device_hint": "Phù hợp xem trên: Máy chiếu màn ảnh rộng",
+      "matched_keywords": [
+        "ai",
+        "không gian"
+      ]
+    },
+    "64e81650810f45d8": {
+      "theme_id": "scifi",
+      "genre_label": "Phim khoa học viễn tưởng & AI",
+      "mood_tag": "Viễn tưởng · Công nghệ điện ảnh",
+      "poster": "assets/poster-scifi.png",
+      "accent_color": "#38bdf8",
+      "device_hint": "Phù hợp xem trên: Máy chiếu màn ảnh rộng",
+      "matched_keywords": [
+        "ai",
+        "gò tam tinh",
+        "tương lai"
+      ]
+    }
+  }
+}
