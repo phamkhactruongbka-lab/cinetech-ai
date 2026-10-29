@@ -303,6 +303,70 @@
       "source": "VOH",
       "status": "needs_human_review",
       "draft": "Tiêu đề từ nguồn: Doctor X dẫn đầu khảo sát phim truyền hình được yêu thích tại Hàn Quốc - VOH. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
+    },
+    {
+      "id": "4695e688eae96c62",
+      "headline": "Top 6 bộ phim kinh dị đáng xem mùa Halloween - Laodong.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObnpkalJFSmNUUWxOOU5PbjJ2U1c0M2FUalJ4d3U5SlRqNkktNHdYNDdQS0EySjJLenJlQTd5cnBEREFueTN5TldNWkdPaDV6TU5CdF9meWhKcnZKRGRpMlY2d29NaGZKM2pLTEtXajB6SGhXdmxCR1lxZUxrcnpmQkk0NTBtMk5PelJVYg?oc=5",
+      "source": "Laodong.vn",
+      "status": "needs_human_review",
+      "draft": "Tiêu đề từ nguồn: Top 6 bộ phim kinh dị đáng xem mùa Halloween - Laodong.vn. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
+    },
+    {
+      "id": "10ae84c038b0a2cd",
+      "headline": "Linh ảnh: Những thước phim tri ân của người lính - Báo Quân đội nhân dân",
+      "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNDhXNE1rUWpwZmxMZnVwc3RpbTgwZGV4UWNjRW9YTTJwOWpJV2hEeVpiYmFIcFpGM21nSndsc19qRGxXbk15UllacGxGcWZJYzZYanRYMUpLSGl0MXZhcm1GMWk0VlltQlA5aG9aTm94VXdjZ0lRTTZHcWtLOV9DZ2JJbElVWERGSlpv?oc=5",
+      "source": "Báo Quân đội nhân dân",
+      "status": "needs_human_review",
+      "draft": "Tiêu đề từ nguồn: Linh ảnh: Những thước phim tri ân của người lính - Báo Quân đội nhân dân. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
+    },
+    {
+      "id": "01f39781502abac3",
+      "headline": "Mở đường cho điện ảnh Việt Nam hợp tác sản xuất, phát triển thị trường quốc tế - Vietnam.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQy01WE51d3JMdXdoVTMyb2RvUGtKTVZZZ1RXekt4aUl1LWJ1cUVQN2lVSFN2MGZ5UjRrNnBCWXRqNXJmSDI1RVJQeWJTNVpvWlZMWGpBaVNfeUY2eXVzZDQ4a1pBenU0dUVHdFF6VnhfUnRWd1BOQ1M4THMzUjhwY2FUUzdmZk84TFhobU9tamZpQjliUW9VT1lHc0JGSXRQV0E?oc=5",
+      "source": "Vietnam.vn",
+      "status": "needs_human_review",
+      "draft": "Tiêu đề từ nguồn: Mở đường cho điện ảnh Việt Nam hợp tác sản xuất, phát triển thị trường quốc tế - Vietnam.vn. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
+    },
+    {
+      "id": "0048e2e1180f6174",
+      "headline": "VFDA: Mở đường cho điện ảnh Việt Nam hợp tác sản xuất, phát triển thị trường quốc tế - thethaovanhoa.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbFlnVEdNQ2t4LWxENFh0c0VUZURYREx4SVFtQzMxTDA4U0FxaE0xWUZ2OGViVDN4X3JRRGgzbUtycDV2R3R1WGlzTHp6WXJ0TDhoQkgzYmh5V1FaRHJOcnoxOHVhdVZOZ2JRYVFqbzc1dWVhdXBUSUN1bmhzaFRjSnhMS3BfTHRLYnYzM1Vkb1QwbERzOFk2cEppTzVBZTlIdzFZT3pjMnZDemdSMnBsVUVITmdkU08ySU92RUZaQ0ZqWDU0eUY0SQ?oc=5",
+      "source": "thethaovanhoa.vn",
+      "status": "needs_human_review",
+      "draft": "Tiêu đề từ nguồn: VFDA: Mở đường cho điện ảnh Việt Nam hợp tác sản xuất, phát triển thị trường quốc tế - thethaovanhoa.vn. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
+    },
+    {
+      "id": "f16fda0733bbcf64",
+      "headline": "Mỹ nam \"đắt show\" nhất màn ảnh Việt: Từng làm soát vé, giờ một năm đóng 6 phim - Kenh14.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeU5TZlVzTklHRlQxNVA3WEVEWHB0WHJFbW03SkV1aVRtb0tWZEFBZUVyNVhBQ0dWdWd0LUxaSTNEbHFycjVXMmJTZC16NFBpZDVYbldVWVdQRzZEaFFxQzZrSDAyRnllUU1YX2RWYWQwT2xxUmp0QXJYUGx4dWtBaDJZZmgyQ01VeGp3MURZNVB6Y0IxNjJvbFJ5UWp3OUN2VURFVlNwREFGTm1GUzRjZGthWEJGdw?oc=5",
+      "source": "Kenh14.vn",
+      "status": "needs_human_review",
+      "draft": "Tiêu đề từ nguồn: Mỹ nam \"đắt show\" nhất màn ảnh Việt: Từng làm soát vé, giờ một năm đóng 6 phim - Kenh14.vn. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
+    },
+    {
+      "id": "7667178d78d8b172",
+      "headline": "Phim Việt chưa chiếu đã phá kỷ lục chưa từng có trong lịch sử, nghe tên dàn cast tổ hợp siêu sao là biết liền lý do - Kenh14.vn",
+      "source_url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNUTZqdnRIMm5DQm92Y05HLUpxUmVHWlVlOWJJTUVlVUJsTnViNzdia1BCRGZyQTFKZTBySlNpek41b19CaWJkTkRVQWt4WjZaVUZNT19RclFFZEZacGlYSDQzSS1ONmdvZU8yYmMxNVdrYnRoNGZJZDFreEQwR3MwQk4waERad3RYa21fa2Z2WEtMY05xWUlqRlMwUWR3WWpJQzF6R0x5VjNSbDJxZDNYVmZvVlZtQ3ZnSFhPNFNsNU1pcmZiZ19nZHBjTFZCVXI2aVZoWUFOTTVGZ3k2U0lhdmxyNGU2R25Ic3hN?oc=5",
+      "source": "Kenh14.vn",
+      "status": "needs_human_review",
+      "draft": "Tiêu đề từ nguồn: Phim Việt chưa chiếu đã phá kỷ lục chưa từng có trong lịch sử, nghe tên dàn cast tổ hợp siêu sao là biết liền lý do - Kenh14.vn. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
+    },
+    {
+      "id": "2e4ef379222bd979",
+      "headline": "Phim tầm trung - “miền đất hứa” của điện ảnh Việt - Công an Nhân dân",
+      "source_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWnJPbm1XVlZLYlpNc2gzVFRkYzhJc2xuVW94bjY0WmY5dlJ0Ni1WUXZzSVVDeXlxM296ak1EOGtHdTJBVUIwNE0weEZoYmpUTHFmc29PYV9vTnV4VkxTdlhhNi1KdlV6aUJ2TDZfbVhzS20tWlhCT0ZVbVFxaFZXVGI2dw?oc=5",
+      "source": "Công an Nhân dân",
+      "status": "needs_human_review",
+      "draft": "Tiêu đề từ nguồn: Phim tầm trung - “miền đất hứa” của điện ảnh Việt - Công an Nhân dân. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
+    },
+    {
+      "id": "7e7d3f201c2ca38c",
+      "headline": "Dàn diễn viên Kiếm Lai: Ngô Lỗi cùng những gương mặt \"xịn\" sẽ gây bão? - VOH",
+      "source_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zMTZYeXhNcF9pTWdQQ05VZk1XRGRVNER4d212ZWhHLWJWM2wxck1qT1pTQVE5UzhVbFlCeVU0cFo4Q044bUJibXJ4c0FFM0NCRmlFOG1BNjl2YXpfTFY4ZzFyQnVtRHM1ZDA2ak5yRQ?oc=5",
+      "source": "VOH",
+      "status": "needs_human_review",
+      "draft": "Tiêu đề từ nguồn: Dàn diễn viên Kiếm Lai: Ngô Lỗi cùng những gương mặt \"xịn\" sẽ gây bão? - VOH. Hãy đọc bài gốc; đây không phải bài đánh giá trải nghiệm."
     }
   ]
 }
