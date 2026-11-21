@@ -1,11 +1,19 @@
 {
-  "updated_at": "2026-11-21T11:32:28.974099+00:00",
+  "updated_at": "2026-11-21T23:26:11.470926+00:00",
   "items": [
     {
-      "title": "Khai mạc chương trình chiếu phim \"Hải Phòng - Cửa ngõ điện ảnh\" - An ninh Hải Phòng",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUHc1SVc4cGdjTWdudk92NDNHUDNybFlNYWRKYlBiNTdlZVB4Rll3NVBlQkVDcjJlMldiclZnR0ZuWWZ1cG8yNkdSUVBOQnVpZXJjdUplRWZJNHQ1QnB4engwTlI2VmMzMUxYYm1ldE44aEJGMF9LVnVXYmFaTGV6eFVoZG5PX05ybENWZDVRWlhyVzQ?oc=5",
-      "source": "An ninh Hải Phòng",
-      "published_at": "2026-11-21T08:43:00+00:00",
+      "title": "Khai mạc tuần phim \"Hải Phòng - Cửa ngõ điện ảnh\" - Thuonghieucongluan.com.vn",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWFlqNXVuUEJSVWEwT1ZrVWVZaDlCQlg3NmxuMUlIZkt0c3BZNWN4b3ZQOW43VFBVam43cVI2NXZVdkNSRlVuZE15UVQtb3B2a0FOZTJJZlRwWW00dXhueHFTaEpQd3l3dDctb05ENUt1RlFZNFZOZnZCbmpzYzZCblNabUFjMkxNRWp3SGNyWkhrcUlFR2pn?oc=5",
+      "source": "Thuonghieucongluan.com.vn",
+      "published_at": "2026-11-21T09:33:00+00:00",
+      "query": "phim chiếu rạp Việt Nam",
+      "status": "needs_review"
+    },
+    {
+      "title": "Đà Nẵng: Công an phường Hải Vân tổ chức “Tuần chiếu phim cách mạng” - Thuonghieucongluan.com.vn",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeEdnV1IzamNQc0owZlB3SXZTMzBlLVJZMldVMjJrYjgzX2EyMTV0YXBLUkExUktvYVpPTEVza2t5MF9hVVVlSl9rclhYQXdFVFNtU21KejctQjYzY282c0wtQklSN3VCVGdmWGNZUGRBZTZlM05Bd0UyTzlseDgwa2RSZUd4amVnUzdYQ3JHQmZpTEtSdzJ4dEw2c2FIZWxZSFRxcEcyd19PZUxfaWh4Zw?oc=5",
+      "source": "Thuonghieucongluan.com.vn",
+      "published_at": "2026-11-21T05:00:00+00:00",
       "query": "phim chiếu rạp Việt Nam",
       "status": "needs_review"
     },
@@ -26,14 +34,6 @@
       "status": "needs_review"
     },
     {
-      "title": "Chiếu phim miễn phí chào mừng Ngày Văn hóa Việt Nam tại Trung tâm Chiếu phim Quốc gia - nhipsonghanoi.hanoimoi.vn",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaXJ4TjNuMi1ENkFrakZ6ck1oSzQ2VGVvcUJXTTFZNGRnRXpZSjhTLVFrZG1iVnAtNTViS1RyekwyeWhCVlMyZV9CQjNxVW41V09FbFlWaC1fU0JodFduYU9GQkdZMG1JNHp6eWIzc19SMmxGcDl6Uk56UDY3RzRPb21VRDFtUFBIQlNJWXhXbVc3LWxzUVg0UGVLcUx5VmZjUERfcDhIRHVVNkE5NGFGMW9CNXFMN2FoUGlNYkhnQ3J1VTVaWWpIdW5talc?oc=5",
-      "source": "nhipsonghanoi.hanoimoi.vn",
-      "published_at": "2026-11-20T11:49:00+00:00",
-      "query": "phim chiếu rạp Việt Nam",
-      "status": "needs_review"
-    },
-    {
       "title": "CGV, Galaxy và nhiều nhà rạp tổ chức chiếu phim miễn phí - Znews",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVXNWSnBNbTB4TGlOdnhWV21BcnItbFpuS2VhWTk1bWtpa0pRTEFhUlNvdjh6YUdTbk9aM0p6M2MxRHRjMTZnRTVpRTRPdFNobTNWOG1lNVJ6bVFPYzVna3lDUTUxdDNjQ2hZQVA2NmR5Vlp4ODd1UWhEMDYwLUJHVjJiRnl3VWZ0RjE3d1lwbXVrems?oc=5",
       "source": "Znews",
@@ -50,14 +50,6 @@
       "status": "needs_review"
     },
     {
-      "title": "Chiếu miễn phí 'Mưa đỏ', 'Trại buôn người' dịp Ngày Văn hóa Việt Nam - Báo VietNamNet",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbTlFY1lQbFQxZjE1eGNXd01iU002TjNObFNwMEh6MkVTUUhvcGpmZVpSbEpMd21PSXdUd1hXRzdFRml2N192cFJ3aFBlTmtHcHYtVEtXOGhmbFJWTUNsRGdKS05KNUlKd3VZbGdRSVF4MDFaVzdvVEJKX3Y5Q1BYWFVFNjhReHoyNjJlWnZ6OGYzSGR6azMwNmk5TWljaVU?oc=5",
-      "source": "Báo VietNamNet",
-      "published_at": "2026-11-20T07:24:00+00:00",
-      "query": "phim chiếu rạp Việt Nam",
-      "status": "needs_review"
-    },
-    {
       "title": "Ra mắt dự án phim truyện điện ảnh “Tuyên ngôn Độc lập” - Báo Công Lý",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOURldG5hYWowM3otZXBSVkVCak01UmdhZzZXVW5fdVdTTnBCVWxFTkZLems5bm8zSUdaS0pnazEzeUR6NkNTbTBfY0NkRDVsRjZ0X1JZSFFzaWtjb0JJUE13ZG1oQThPT0lxMHluam5ZbTZmZndtMVZ1U0pNRDd3WWF3emVQUTBNcXc?oc=5",
       "source": "Báo Công Lý",
@@ -71,6 +63,14 @@
       "source": "Báo Sơn La",
       "published_at": "2026-11-19T08:07:01+00:00",
       "query": "phim chiếu rạp Việt Nam",
+      "status": "needs_review"
+    },
+    {
+      "title": "Lê Dương Bảo Lâm bỏ luôn hàm răng sứ để đóng phim, quyết tâm lấn sân điện ảnh - Harper's Bazaar Việt Nam",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNEk4c1VJZTdVaEt0VXRSUVpDcVgyeGNRR1JoMG1BaWpzMFRDd0NhY08tangyRGJjbjY4Y210Y3MweHJrZTdSbF9mVjJ6SzJFUm1VeThWMEUyODM4QWNsTWphWHcyZjJjNkkwMGo1NnVfTTBFd3Z0VEpqdFFrLTlqRkJ1SVBFeU93NHFFLTFXRGZrWExnVmp1ODhMX0tzcF9Pc0tZaQ?oc=5",
+      "source": "Harper's Bazaar Việt Nam",
+      "published_at": "2026-11-19T08:05:07+00:00",
+      "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     },
     {
@@ -98,10 +98,26 @@
       "status": "needs_review"
     },
     {
+      "title": "Chiếu miễn phí loạt phim trên cả nước chào mừng Ngày Văn hoá Việt Nam - Báo Lào Cai điện tử",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ0w4dXlaenJjaEFPa0xJbF9KelNNNVFQVEVwVEhrckt6X2FZZEJYZFRKNjRkRWZSRFFvSVV4WWtGa05rb1FxYVBBZ1ZWUFBmRzJxYjJiZ0RLSG9ibkRwZWFXcmxTMVdDRTNMUUI0QXpkNXlPeTBCTDdSOGF4anFMdl85V1lhNUJoaUlzRUMwTlFCNnBoOG13UXhpOEdNZmpnLWlSemYwbzdsQQ?oc=5",
+      "source": "Báo Lào Cai điện tử",
+      "published_at": "2026-11-17T00:08:03+00:00",
+      "query": "phim chiếu rạp Việt Nam",
+      "status": "needs_review"
+    },
+    {
       "title": "33 cụm rạp chiếu phim miễn phí nhân Ngày Văn hóa Việt Nam - Báo VietNamNet",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZEpoanZ2T2VGUGN1eXhybF9jM0IwUmtFMmlyUVA2cTBTWWg2M3lERS1Ha01GV1Jhd0VCS2hZSkg0ck1ja1hSVWVzWjNJY0tZbkM0V1F3NEVCMmlyTG54WW15Y1h0NHlMcmxHQ00tdDdudFY5bG84TjRHS2RuRUpqLVUwbkZtMGctOVJkanE2VzF5YWJHSlFr?oc=5",
       "source": "Báo VietNamNet",
       "published_at": "2026-11-16T14:26:00+00:00",
+      "query": "phim chiếu rạp Việt Nam",
+      "status": "needs_review"
+    },
+    {
+      "title": "11 bộ phim Việt Nam sắp được trình chiếu tại cụm rạp Hải Phòng - Báo Văn Hóa",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdmhrZTNtVFk4TU40SmtoNjJqTjRwdVlpV2c3bm1JUHpsSUQzR3AwVHJ4ak05UFJRVnVkbG1RdUdnLXBOTnFWZUVqMmdvT0tVRGNuYTZqX3FjM05OT3lKN1ZUd21zbnEzcmtBeEdOZUY3RmxhWkowcnBSd1pZeUlqczRHRE1SUjRrOWhkalFRdVBRZw?oc=5",
+      "source": "Báo Văn Hóa",
+      "published_at": "2026-11-16T14:18:49+00:00",
       "query": "phim chiếu rạp Việt Nam",
       "status": "needs_review"
     },
@@ -130,14 +146,6 @@
       "status": "needs_review"
     },
     {
-      "title": "Chiếu miễn phí loạt phim trên cả nước chào mừng Ngày Văn hoá Việt Nam - Báo Công an nhân dân",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWG9rVEYwNm84MEpONTFyRlM0dmpqQ2xLYzFoMC1OOGNqVHV1aEFWMlViNmFjWUlraEh4ME9qWTktaGZrc1pFOWswR1YwNFJ3SERmbTlZa1FBWHRIV3YweHpGZklZenVpYmd4M29QYXM4WHhnazR6bGtSOVF6Y3p1UjNwcjhycWY0Tk1YTVIzMnhOdXp3YXJFc1VmLVVKb2k2bTNv?oc=5",
-      "source": "Báo Công an nhân dân",
-      "published_at": "2026-11-16T08:46:15+00:00",
-      "query": "phim chiếu rạp Việt Nam",
-      "status": "needs_review"
-    },
-    {
       "title": "Tổng hợp phim chiếu rạp tháng 11/2026 hot nhất - ELLE",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43UGRZbDBkWWNfQ1pxSkRZSWJNMk9yM0lqYnpianpOOUFQQ1REZ01Vc2pHNXRITGZ3Q3BaYm54djFzX085QjgwX2hQSXhEMUZCM3dYR0dET01UOWFUdE02VjBxejJ2MEJ3Zmx2SXUweDllSXhP?oc=5",
       "source": "ELLE",
@@ -158,14 +166,6 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeUJEbldUV2twMkdRZkViXzktTjJQalc0QTZvVTRSc1VUakFud0xTOURlQ1dRMVNaMFJBZ3JZZzJYeUZMcm5Rb2w0Qzl0N0NHcUs0NGpXR2FCakZKa0JuMnNXSlNmZzY2bEk5cG01TGE5VTBmNXIxQnNINDAzZEJURy04a21xTVFlZGs5VXdOekc3UFZta0w2UGRUVGhYNm5Bcjl2dW51SQ?oc=5",
       "source": "Báo Nhân Dân điện tử",
       "published_at": "2026-09-16T07:00:00+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
-      "title": "Hộ linh tráng sĩ ra mắt hoành tráng ở Ninh Bình và những người lái đò, nông dân lần đầu đi thảm đỏ - Báo Tuổi Trẻ",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZDBTV0F5U2ZrS3VVNGRHZ1NUOWl5WEw1dDFybzZvTTlnek8wSzBkWG02bVhVWkdiRklTMHl3ZE9ZSDVHcEVYOS1FX0dFemlUaHh6YW9FbnZBUjNCcGxST2h1eV9NV0d0NzhsdjZzbVB3Wkc4UlBVR053TnpwcW9rNjFCTFRNc0ZUS1ZfN1BiMFpaR0YyV1h5VFJ5WlZiaW1UUmV4ZFRLdkhaMmhpUE05NXdvaVU3bUVJdkxXM1ppQUZjS1phN0Vha0Robjl5OWhtTjFjOHJR?oc=5",
-      "source": "Báo Tuổi Trẻ",
-      "published_at": "2026-08-23T07:00:00+00:00",
       "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     },
@@ -218,6 +218,14 @@
       "status": "needs_review"
     },
     {
+      "title": "Đạo diễn Tử chiến trên không trở lại với phim kinh dị nặng đô Sợi chỉ đỏ - Báo Tuổi Trẻ",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRG1FYk9yWkhhd0dhUnNkdUN5X0trLWN1cGxsZVBLU1NRRHZ3VzNpbTRvMk5jVThDRUtxcjYyVmVsaDR5RjJMd2RkZkhMZEZ5WDBmNTVIQXlkZVFvSW9MQ3JIRkNFZ1RfRnBvVUQzUEdSRzdTb3lzN0Vfb2VfdzZuVHl5Ymtadl9yTnpmNmlOaVRXMk9vWXdFdFlja0JqMnFfdEpHbnYtRXptb2RmN19oakpiYw?oc=5",
+      "source": "Báo Tuổi Trẻ",
+      "published_at": "2026-04-27T07:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
       "title": "Đạo diễn 9x Đỗ Quốc Trung ra mắt phim điện ảnh thứ hai tại quê nhà Hà Nội - Tạp chí Người Hà Nội",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHBld0xLVWtDVVVVdGY5OXJXX0stWU0wSFNWUDFaNEt3YW1zMHRZMEU3MlkzN3hxZlpXTUI4OHlvNUlyTldKMTh4ZWZaVmRIVlZSWFBCMjZQOGV0b0xVd1E3STRMTEdiTmc3VzZkYUo4Z2JraU1XSjR0WXozSGNRN0F1YzFrQzl2X2NId1VjVTZ6RTl6Q05kSUl4d0o0Y0pDZjBrYnE3UEo5WE0?oc=5",
       "source": "Tạp chí Người Hà Nội",
@@ -230,14 +238,6 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTlOU1Q5OURFNTZTUkxpV1BWbFVpN2JpRWdJZUt2Yi12elVMd0JuUUNmbjZ0WTRMSTBMT2dkQ2FMeUdLV0FSMG84aGo3MldjaGZPQnhzSzhjQnRrVTJXdjMtTjhmQnFadkc1MnRVbjdQR0o2cXRCcWk2ODJzZF9GLTdTcWlvUmJXVThjaXNYeFQ0NGs?oc=5",
       "source": "Báo Tuổi Trẻ",
       "published_at": "2026-03-05T08:00:00+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
-      "title": "Phim điện ảnh của Mỹ Tâm ra mắt khán giả Thành phố Hồ Chí Minh - Báo Nhân Dân điện tử",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU3pON2R2TUpDeWZMX3dmX09DNmYzdC1zZkR4OWNmS01sX1Z2anh0SHVwaDBsRXVqb1pBZUhoVkFWR3hEMW1yZU9TaU5xWVJRZUxmWThqWklndkg3bVZJQno1c3lNS3Y2c2FybmI3cHN0bGlmWWFyd3ZtQzV0cmdCQzI0RC1wblpTbk9GNVN2U2JRaXpyTHZpTzEtN3V3dw?oc=5",
-      "source": "Báo Nhân Dân điện tử",
-      "published_at": "2026-03-02T08:00:00+00:00",
       "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     }
