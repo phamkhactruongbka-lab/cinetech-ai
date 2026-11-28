@@ -1,11 +1,19 @@
 {
-  "updated_at": "2026-11-27T19:43:50.596636+00:00",
+  "updated_at": "2026-11-28T04:23:39.634441+00:00",
   "items": [
     {
-      "title": "Marvel ngày càng có nhiều nữ siêu anh hùng - VOH",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNFI0M19nU3ZNNGFja0VqcVRmdWwtVTE2ZC1OQ2YzaFlBZGs0SFZ6U2h6WUt0ZEhaMFVucVdTZmdDWjhIVTF5ckN4czZ0QVI2MzdGQzhORzhYVjFlMGN6YzRQdUkwU3MwRnd3VkpFdm5IRjAwQm5vYzVZNlhMdnhwVlhsc2hqUk52bWc?oc=5",
-      "source": "VOH",
-      "published_at": "2026-11-27T11:37:03+00:00",
+      "title": "Lịch truyền hình, lịch phim chiếu rạp ngày 28/11: Phim mới phủ sóng, loạt tác phẩm hấp dẫn chờ khán giả - Tạp chí Bóng đá",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPaklOY2VZdldpWFQ1XzJYUGl6Q2ZmNE41MUo0MW5GeWNzVU0zMHhSZVhQdnFiMHlNaXVfT0lGa2JpZzlwckNZRnJnYUhuWTZPdGh0ckNIekhOZHNvRTdBYWtBUVFWYWNscEoxbEtLYTg4UmVydjFCSVZkbU9DSHdXY2U0ZWVpT1JWNUViSmpYYmJMX2t0dEJnWWpqRjh5ZTZxb2NYWURpT2paQjN2STZOalNpSkJUNVRDYXBVXzRUaXkzNzNfQ1VQWHowQVo4dTVVRTN0QV83dEdLX2MyclVsNVRUUy00SE5rd3hNZg?oc=5",
+      "source": "Tạp chí Bóng đá",
+      "published_at": "2026-11-27T22:21:48+00:00",
+      "query": "phim chiếu rạp Việt Nam",
+      "status": "needs_review"
+    },
+    {
+      "title": "Không còn cơ hội cho nghệ sĩ Việt Hương - Tạp chí Saostar",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQN2N3TWlxNUpCQi1YQkR3b2NraDlfdFVUbVB4ZF9EWDFpdUt2akFINlhROEJyblZ2dFlwVzNpcjBja0huOWRNYzg1WGlUMjU5RGwzN1NVWmt0bU1hRXYtaWlTek9xcXN3SUh6X01HNWMtVExZQzQ4X0NwMi0tak1qWTU1SGRPcW55TWNZWGt5WmExTjZGUndZaUJfTQ?oc=5",
+      "source": "Tạp chí Saostar",
+      "published_at": "2026-11-27T20:25:37+00:00",
       "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     },
@@ -14,6 +22,14 @@
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaVdMRVA4cUZvdm1yU1llcF9LemdkNlFjSXAwbno2bFlfNFZHTnlYaFlVLXZZbVREVzlDWXhpZVZZcWhLM3IwbHFDMU9JX2RpYWxUXzVyeVhVbEVxMXJnVWZuQ1VBSmxOSkdMd2RaMmJfa2lBenV5ZlJYQi1wNF90eDB3?oc=5",
       "source": "Vietnam.vn",
       "published_at": "2026-11-27T06:23:55+00:00",
+      "query": "phim chiếu rạp Việt Nam",
+      "status": "needs_review"
+    },
+    {
+      "title": "Tập cuối 'Running Man Vietnam 2026' ra rạp, đạo diễn Trấn Thành gây tiếc nuối - Báo VietNamNet",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUXRzSVJYYTk5bE5CTEtjVHROSV96eWtxY3hzazZZSUpaQTB6WUUydnhIUWhqVEFVZXM5aHYzbjF4M0hCejBtY25oTHYyM0RfdG9JdUlsQ2VrLXBsSG1adzFzU29HZ1p4VkMtc0htdDA4b2R2XzN4UnpMOUNrcUFUZzBIdk9MR3duazhzbzF4cTFZR2Y0TnZfU1hXN0RfLWVUOVFlc0REeTZzd3htTmc?oc=5",
+      "source": "Báo VietNamNet",
+      "published_at": "2026-11-27T05:10:00+00:00",
       "query": "phim chiếu rạp Việt Nam",
       "status": "needs_review"
     },
@@ -50,14 +66,6 @@
       "status": "needs_review"
     },
     {
-      "title": "Mừng vì Lý Hải và Minh Hà quyết định chọn quay lại - Tạp chí Saostar",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUnoyMkpXUk1ETG1VNVV0cmxNbTNOWEIxaXJPd21EZkNiNjhpSTFpWHJIMTFyOWhCWUJxeVFPMVZLdE8xTFBaaU8zNkRYam15a3pTZXlDTFF2QlBSbUNxazh3dFRwa0FzX3F0Vl9SRy1LNExrbmFkWENvdWhidTZEN1cwZUtpWWlaLXJObUdpU3p4OU4wc1FkLXVkUFZheFlyZlZ2Vmg0YzJhdw?oc=5",
-      "source": "Tạp chí Saostar",
-      "published_at": "2026-11-26T22:00:00+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
       "title": "Lịch truyền hình, lịch phim chiếu rạp ngày 27/11: ‘Trại giam hạnh phúc’ độc chiếm phòng vé - Tạp chí Bóng đá",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMFJVZDdnQmhoNFplNkJxWXNCTWRnT3FXVHZCQTduaS10VTdjQlBCTHJOM3djZXFsZmFyV21tb0FBVloxdUg2dTZFSVFjY0lMZ1NXdTB3cHBzelV1NndDVFJKcjU3ZnZJbHB2ZjBZclBwQ2pvNlgtbm5zREMyNGZubi1TZzI2ZGgtUU9ZRWF0TjNBc1BibmFQOFB6Z2Q2Nmo3WWlhSUtpMHJoQTdiWElDTVo4N0cyZlFWMVJGSzhpdEF0bVc5T3JSMDllSDFVMVU1blUwUzNMdlVrQQ?oc=5",
       "source": "Tạp chí Bóng đá",
@@ -82,26 +90,10 @@
       "status": "needs_review"
     },
     {
-      "title": "124 phim của 41 quốc gia, vùng lãnh thổ dự Liên hoan phim quốc tế Hà Nội - Báo Công an nhân dân",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTXRsLU5iV0xYWjFESEZEdkM3RzBQUURzV2N4TkE4TjlRWTZma2k2WDUxWi02WmM5ZHk5X3hDS1hNRDFBc2ZXVHpPSll4UFFIaFc4LU5lVjI4VXpDcTRmSVNudXYyN204aUQ0Z2xDXzZMQ0tVcHkwNWlrQS0xYzVKM2MtVmRkXzZqTjFpQmoxZW9ERF9SbzlKaHhGeFpzMXBEMzlnZEJn?oc=5",
-      "source": "Báo Công an nhân dân",
-      "published_at": "2026-11-26T08:37:03+00:00",
-      "query": "phim chiếu rạp Việt Nam",
-      "status": "needs_review"
-    },
-    {
       "title": "Dàn mỹ nhân đi xem phim 18+ 'Mẹ mìn' - VnExpress",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ZdGhLVEZwWFRFYVVoeHRzcHFDYl9vbTRKdGFabTJqUWwzdmRQOFIxTHdmQUp5ZVliMzlHNXlUbi1HaHp4Y0Z1ZGsyd0tlVklVVS0xTElYOVF1d3g5X0Z3ZG5PRl9RUHZUX2tLZ0JTejZDVUJpd19Z?oc=5",
       "source": "VnExpress",
       "published_at": "2026-11-26T04:53:08+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
-      "title": "Phim điện ảnh \"Mẹ Mìn: Giao kèo với quỷ\" được phát hành chính thức tại 13 quốc gia - VTVgo",
-      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1KQkNjMHZaU0ZmNEsxQU9TSi1mZGlTV0ttaktnUFVYLWR2ZkRhR3R4aTBzbWx4MDQxQVRVNkt3aUI?oc=5",
-      "source": "VTVgo",
-      "published_at": "2026-11-26T00:00:00+00:00",
       "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     },
@@ -114,19 +106,19 @@
       "status": "needs_review"
     },
     {
+      "title": "Lịch truyền hình, lịch phim chiếu rạp ngày 26/11: Điện ảnh giữa tuần với nhiều màu sắc cảm xúc - Tạp chí Bóng đá",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPT3k4WWdGbTJsenFfaFR3X2tUUWFva3kwdm1nVWFkQjNncWJpR3FQYlpXeFVDX21ud1pQNUhxblNfNEFyWUVOdUUzaThxVHN5S0lfWUl5WkJRX3BPS1FabEJQNGl6dl9fbmVpc1JRallSWkFLYlZXOEh2NFZhd3BtaGh5V1o1MnFSZk04dWZ3VU9iTTBlNHlaV2p4OWpIX25FZ3lhR3QtZVlvTEd2ZE5IUnJQMDBBcmxtYWl1aXFZOUw5TTlCR3JycjV3M0p0dllobFBoOVk2Vm94TGRzaG9MMzlB?oc=5",
+      "source": "Tạp chí Bóng đá",
+      "published_at": "2026-11-25T22:48:33+00:00",
+      "query": "phim chiếu rạp Việt Nam",
+      "status": "needs_review"
+    },
+    {
       "title": "Phim Việt ra rạp dồn dập, quảng bá rầm rộ vẫn ngã ngựa - Kenh14.vn",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOEhXMVA0ajg1YWJOVFN5TGF2U2cxRG9tN05TaFdsWW9VT3BCelhlcjJQMzRON2lMWHotcXQxUnMxWnZFZ1U2RnZIdi1PbzRCZFBJOS10Z0tVMXVvQkg1TXJfbklaeW1ZZWdpSVFQMmFEbGxMTnA3VHpacW4zTm40a0U5OVc3NWVxbmJRQm5FVjhPblpMRXNsNnBR?oc=5",
       "source": "Kenh14.vn",
       "published_at": "2026-11-25T09:38:00+00:00",
       "query": "phim chiếu rạp Việt Nam",
-      "status": "needs_review"
-    },
-    {
-      "title": "\"Ngày Đẹp Trời Để Khóc\": Dự án điện ảnh mới từ đạo diễn Chung Chí Công - ELLE",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOd1BSbjBxXzM0NG5mVVFMNkpJS2VrNmZITFVmbnRtWmU2UG5hUVlRQnRrN19veXYwY3pjSjRFYmtCLWRyT29OaXhKa1lLRFd3Ui1iTFZ1dFg3N2FFbE1ub0dUMHZCdDBXN0M1a1N5cEtOUEtNMzctejNWY1Jhb0hZSndubnFjZkFGc2w3MDlHbHhReGFzS0dIckoxb0tZcUVoQktKRkMxRmU?oc=5",
-      "source": "ELLE",
-      "published_at": "2026-11-25T04:00:11+00:00",
-      "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     },
     {
@@ -138,67 +130,11 @@
       "status": "needs_review"
     },
     {
-      "title": "Lịch truyền hình, lịch phim chiếu rạp ngày 23/11: Sức nóng \"Trại Giam Hạnh Phúc\" chưa hạ nhiệt - Docnhanh.vn",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMVpoMTVkU3c0RjdjaXJDdkh6WDhSR2xZSXBxVFNMS09ua1Y1cF9GZW1LbkNVMklIRTFpdFM4TjBvWU44Y3FlVEFMSFI4ekNZLVZaYUJ2dkdGLVEyVlNCeFZBQ3lNdG9HS1JTbUE5dkhHenlnTWY1NlppczZaN0VSOFZkdXdMNXBDa1RFaWJqNVhidGJiR3Z5Tl94cTl4a3RFbzR6bFZMb0RMUzk3cDFEWk5UNG1kaENLUXpadnB3V2NrVjc3ZHRVNWI5MXk?oc=5",
-      "source": "Docnhanh.vn",
-      "published_at": "2026-11-23T02:56:00+00:00",
-      "query": "phim chiếu rạp Việt Nam",
-      "status": "needs_review"
-    },
-    {
-      "title": "Phim về Michael Jackson rút lui tại giải thưởng điện ảnh BAFTA? - VOV.VN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaTZuVXotVXFMTmZ0TkJnaVl5Uzduems3Q3QwanlOY19XLVdZbTRyNUVSUWlYcEFsQmJxaVI1ejJ6RjN4SWFJcllJNF9vQW91LXZKaWtqaDZxUGpfSzdCWW1sNkpNN1gwT29tdWZTOExWLUFuczlUNG9pRHVNWXpSSWVsZXBEbHpIRFR6SW90WWZMeHNWR3QtaEExd3ZDSldFZk5VWA?oc=5",
-      "source": "VOV.VN",
-      "published_at": "2026-11-21T23:01:00+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
-      "title": "Phim điện ảnh về anh hùng Võ Thị Sáu công bố diễn viên - VnExpress",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMWVFZm5zUXlqbWZMdThYVmx1ZDJiRnhlYUROY1c3NFJQb3FRNkZHeUZwNF9zcmVfeDBwYURQZlNmT1JkZlYwOGt2QVZBaGd2X05YLUR5c3dKdnFFaUNaRUtfWmtvWC1oMU1tM2Mza29IZVBHa1hqeXBVWDNWWHBCYUZOaHBZNTN2SV8tUndzLTZLOXM?oc=5",
-      "source": "VnExpress",
-      "published_at": "2026-11-19T04:19:15+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
       "title": "Phim chiếu rạp miễn phí và phim chiếu lưu động chào mừng Ngày Văn hóa Việt Nam 2026 - Công dân khuyến học",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZFlzOWZ0bE1TckpUUW5TdjlLcWEyNnJkV2pBN2Vqa0VBeDZ2cHE1bE1xSnZlTWp3YjJYbG00VzJNQ1RDNTUtNS1SNWZ2eHFfXzVQU25YZ0hhdU9yX3I0LUF0YlNQem9NcEQzSDllMVBMZlZKaEJESmIzNm11UW5uMmI5Ykx2R053Zl9uUUk5VTRIeTFXU1NiZ05MOGlQX2VNNDVnWnVaZGw0WVJILXhPZS1Ca3RxLWNHb2JhWWhyTUh3LUoyQ2c4azFUejI2Zw?oc=5",
       "source": "Công dân khuyến học",
       "published_at": "2026-11-16T14:12:00+00:00",
       "query": "phim chiếu rạp Việt Nam",
-      "status": "needs_review"
-    },
-    {
-      "title": "Mở rộng hệ thống rạp chiếu để điện ảnh đến gần hơn với người dân - Báo Hànộimới",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONkR1MTlVT1ZDYjNrTk1wSElpcFQ1Z3QwUThNS3F5amFENGc2T1ZJaGZscTB0VXZJOWUwU0kwX0pqY3NDaWFhUjR1azV1QjRfNExhcEdRcDFTa0RxX3dvSTNpV2x4dlVDTk1qQXJwRUc3azFGT1JpM3hGNU9qbGJ0YTl2RENTMW1vMloxbUt0SHVFVGlKVjZZQjJzdzhsZw?oc=5",
-      "source": "Báo Hànộimới",
-      "published_at": "2026-11-11T09:29:01+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
-      "title": "Câu chuyện điện ảnh: Điện ảnh Nhật Bản lập dấu ấn mới tại Bắc Mỹ - Báo Tin tức và Dân tộc - TTXVN",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTUJ6LS1QM0JVQWpyTEh3RW1pWkxFSWxlREV3eHZVYXZ6Q0NqcEctbFVUZ092eFJhR1lFZVpKUkVVN1g5Q2VrUnMzVzcwckpRdEMzUjdRdWhDSWFSYklrNDA4Y05YY0MzeFUwYjl6TEtoSEtoUUhfZlNnRHJoRzB4QldRR2hRdWlzb08zYU9qS0F4RHdBeVFvUWNpenVzNWd5T2lJ?oc=5",
-      "source": "Báo Tin tức và Dân tộc - TTXVN",
-      "published_at": "2026-11-08T08:00:00+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
-      "title": "Quỹ đạo kỳ lạ của điện ảnh thế giới 2026 - Báo Công an nhân dân",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00UHUtcF9UX1JncjZ5ZWp4VVBDdzZFT3NqTkFaNnAyRGh2RUUzcnN3dlRzX1ppZFJ1NVpVSFZ3aXBpd0NFQnVJTU11bUhlMUNEXzcyXzk1MUhPa3NPNDlqMEtPY2lMeVdCS2xfMld0eVZHWDBVSEx1eVIxYXI?oc=5",
-      "source": "Báo Công an nhân dân",
-      "published_at": "2026-11-05T08:00:00+00:00",
-      "query": "phim mới ra mắt điện ảnh",
-      "status": "needs_review"
-    },
-    {
-      "title": "Hoa hậu Đỗ Mỹ Linh chúc Tiểu Vy 'Trăm tỷ nha' khi ủng hộ ra mắt dự án phim điện ảnh mới - Báo Nghệ An",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVFFOMHM2NktXTnZkbUhzeGRydWpmWmdtUmFVY2dGQ19kVDJ5UHpqeDIwVTU4NUlQNkJuM1IxQzU1Mk5oVHVTazgzYVU1aHh1R0JGb2VYTVAtVU00a3dzV0RHaF85VGM2d2NWYWs1R2FUb2x1dXY1OFBOYmIwN3VLaldpZ2swNi00WVZBSHBBeXlJTk5vSlhyTGNrX0Nyc2J3Y0QzN1QzYWNwWXZ5U29hTTRPMnJ6RnFuR1ZONA?oc=5",
-      "source": "Báo Nghệ An",
-      "published_at": "2026-11-05T08:00:00+00:00",
-      "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     },
     {
@@ -210,11 +146,27 @@
       "status": "needs_review"
     },
     {
-      "title": "Ra mắt phim điện ảnh “Hộ linh tráng sĩ - Bí ẩn mộ vua Đinh” - Tạp chí Người Hà Nội",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUlNjbDZ6RDlDSVpPeUhCWEgzMUJtaWxkX0EzaExZTm5MT3E1YlQzQWd1cGV0U0lSZDNmWmZCQkVlSm1OVzlEcDM2aEFfRFp4dDBYWmdwSGcyU0NtM0NTVk1ZQWxhby1DZU5GOC13VUYwNHNUN1ZFSGlzYWdFc2gxRHhjbFZRUjRRT210RWwtYWVLcDA?oc=5",
-      "source": "Tạp chí Người Hà Nội",
-      "published_at": "2026-08-24T07:00:00+00:00",
+      "title": "Bom tấn Ấn Độ cùng loạt phim Việt ra rạp tháng 11 - VnExpress",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLVpScW5HQlZLSDBJRjlBRUpzdWVMQzZUcC1Ca2cwRFdSSVpDMTJmM01sR2hTMTJySlppRW9ldVpCTFo2dno0VXAzcW5RSkxwOXZhVG1EckhCN0ZSQl9FUXRWODA5cGZlZmV2NFFrTElLQXdPZ1VnbUtXZzZpckhiMHk3VVR2LUJLUWhLVg?oc=5",
+      "source": "VnExpress",
+      "published_at": "2026-11-01T07:00:00+00:00",
       "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
+      "title": "Phim điện ảnh “Trại buôn người” xác lập Kỷ lục Việt Nam - Báo Nhân Dân điện tử",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSEF5OXJFMXdENGhieUZTNnQ0MmVyNW9SZ0FHU2FibTd6YUc2SDFtOUhFV0xsZ09oT2o0YTYybHBxSEUyWmhiOThPOFpHaVk1MmRZbTFiYmNaY3hBeVU2SXYxTC1tSzA2enVuMkd2bWJfelFGTlB3MnFZUjNnMzFaaVFQUmZuUllzSzBfeE9yMW1Ydw?oc=5",
+      "source": "Báo Nhân Dân điện tử",
+      "published_at": "2026-09-23T07:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
+      "title": "Điểm danh loạt phim chiếu rạp hot nhất tháng 9/2026 - ELLE",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XZEhyem9WLXZqUHE2cTJFQm1mMFFkR1hzMExadDBHOUZmMnlHX0NUZWNYMTMzSW55YXAzQUZDcUdrZFhwOTk4bkxvUGprR0xack1KTmg0UllGQVJpTy1LOWRYR0JuN18tekxod2xsNDM2LWc?oc=5",
+      "source": "ELLE",
+      "published_at": "2026-09-04T07:00:00+00:00",
+      "query": "phim chiếu rạp Việt Nam",
       "status": "needs_review"
     },
     {
@@ -226,11 +178,35 @@
       "status": "needs_review"
     },
     {
-      "title": "Loạt phim Việt và quốc tế chiếu rạp tháng 6 - VnExpress",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQUpETkRtOFZtYno2Z3VpcjlxV2dtV1dzR1FVVUxLeG9oLS1aS3AwT2ZYV0l2cmhZanNvY29LNnhsNEFwa1FEX0tjQTdxeGZpd1N3U0dxNGIzOUFTampZaWR2QnlZcGxvdV9wYWNEUVdhTmV6ZkNkU2ZYNUNadDlWRHpLVGY?oc=5",
-      "source": "VnExpress",
-      "published_at": "2026-05-30T07:00:00+00:00",
-      "query": "phim chiếu rạp Việt Nam",
+      "title": "'Quỷ bắt hồn' vẫn ra rạp sau công văn của Cục Điện ảnh, nhà sản xuất nói gì? - Tuổi Trẻ",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYV9KWWU5RkpYbGRtSElOdVpzYlhZbWIzNUVGeGZITmRQQ3B3NWw2NG9BTjRLMDR6c3FIMXZLX09CRlRvWlhoaGhVSjdEbW8wbjRCS19sNlVaa1doZk5DUU43R1k4MnlzSlktSlRRU1hkbWlZWXljTXlUbWgzV0w5MmhTdGh6dlRUbGZIR29mbDhGVkpXaHBPM0FqdldCYkFYaDJGYkFUMDVDbFZUSFRuVHllTHE?oc=5",
+      "source": "Tuổi Trẻ",
+      "published_at": "2026-07-10T07:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
+      "title": "Vingroup ra mắt chiến lược điện ảnh, khởi động dòng phim tôn vinh lịch sử - văn hóa Việt Nam - Báo Đại biểu Nhân dân",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVkFTQ2dJR3lPTWhMVTlrM0lyX3FSSXhmMXh3UFR1aDkxck90YkxubWRHU3lOYXIzbXgxSFJUSmcwWW9jREp5VVp1MDZWZmVGeW44MWNNalVwQ0hWYm1UQUFFM0J3SkhFblBVRDZQOVVXMG9FdVdpRFFuZlBVRS1DM01ndHQ5cVN2V1VrTnYzd21ZbTdPa2wyMnE5RGJZLWswYnpvWlQ4eEsyMDdHUGFsTFJ0eC0xQktoR2FPbGFrdzVrV2Q4OFp1Vg?oc=5",
+      "source": "Báo Đại biểu Nhân dân",
+      "published_at": "2026-05-27T07:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
+      "title": "Cục Điện ảnh nói gì về phim có Miu Lê đang chiếu ngoài rạp? - Thanh Niên",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd0dVMGF5OENhRkktTE9Ec081WEJkd3Q5T3p6S1ZVbEh4cmtUa0szdDRPS2tYWDNBa3k4Q2NoVHgxWWl0N2d0VWhZTHRhem45MmRJcmdGU1huYkFiMDFLamk5aUlEdFQ5dTVUNmU4VDI0djhDc2d6MEFUNXp3NUNVd0xoVHZ0M0kzMUhPT0RhLVhiVFEtSUtveXpLTU1qb3ZWX0ZUNw?oc=5",
+      "source": "Thanh Niên",
+      "published_at": "2026-05-12T07:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
+      "title": "Cục Điện ảnh thông tin về phim “Đại tiệc trăng máu 8” có Miu Lê đóng chính - VOV.VN",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYlRqSmpId0NfaUtuWll6ZEVnY0FTWS00UWhBSnVmc0FIZVNia0hSa0pnSDdJalBtMG1GNjBJUmpKcjZ4X1FmMnJzdVlMY0Y5b2Y3QXhFb0FEMUo1OVk4MFpHMnB2VlJVTXh5alg1SEpQRFhMU1l4RVBMc0ltQzFlUjQ3OTU5UVR3N2Y2ekFCMlZ5cGpMUWtiMXQxZGpWeDdzOEt0Mk5jdFlKUFlqN0p0WjVzNF9Md2dZUEEtTU1fU3JIcmNXYkpHSg?oc=5",
+      "source": "VOV.VN",
+      "published_at": "2026-05-11T07:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     },
     {
@@ -238,7 +214,31 @@
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UOEhTS0hkQWYzWDVIU1pXUDZRdTZRVEZVZW02V05WMzZBWE1oRENxcmwzM0QwLThsWGhmSzBkU1BtNkk3SlZlWHg1akVwa1hTRDh0ZjVQdFZ3dFUzMmpraEwtRElFdDhYU2F2WDhYWEtod2M?oc=5",
       "source": "ELLE",
       "published_at": "2026-04-28T07:00:00+00:00",
-      "query": "phim chiếu rạp Việt Nam",
+      "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
+      "title": "Đạo diễn Tử chiến trên không trở lại với phim kinh dị nặng đô Sợi chỉ đỏ - Báo Tuổi Trẻ",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRG1FYk9yWkhhd0dhUnNkdUN5X0trLWN1cGxsZVBLU1NRRHZ3VzNpbTRvMk5jVThDRUtxcjYyVmVsaDR5RjJMd2RkZkhMZEZ5WDBmNTVIQXlkZVFvSW9MQ3JIRkNFZ1RfRnBvVUQzUEdSRzdTb3lzN0Vfb2VfdzZuVHl5Ymtadl9yTnpmNmlOaVRXMk9vWXdFdFlja0JqMnFfdEpHbnYtRXptb2RmN19oakpiYw?oc=5",
+      "source": "Báo Tuổi Trẻ",
+      "published_at": "2026-04-27T07:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
+      "title": "Đạo diễn 9x Đỗ Quốc Trung ra mắt phim điện ảnh thứ hai tại quê nhà Hà Nội - Tạp chí Người Hà Nội",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTHBld0xLVWtDVVVVdGY5OXJXX0stWU0wSFNWUDFaNEt3YW1zMHRZMEU3MlkzN3hxZlpXTUI4OHlvNUlyTldKMTh4ZWZaVmRIVlZSWFBCMjZQOGV0b0xVd1E3STRMTEdiTmc3VzZkYUo4Z2JraU1XSjR0WXozSGNRN0F1YzFrQzl2X2NId1VjVTZ6RTl6Q05kSUl4d0o0Y0pDZjBrYnE3UEo5WE0?oc=5",
+      "source": "Tạp chí Người Hà Nội",
+      "published_at": "2026-04-18T07:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
+      "status": "needs_review"
+    },
+    {
+      "title": "Phim điện ảnh của Mỹ Tâm ra mắt khán giả Thành phố Hồ Chí Minh - Báo Nhân Dân điện tử",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQU3pON2R2TUpDeWZMX3dmX09DNmYzdC1zZkR4OWNmS01sX1Z2anh0SHVwaDBsRXVqb1pBZUhoVkFWR3hEMW1yZU9TaU5xWVJRZUxmWThqWklndkg3bVZJQno1c3lNS3Y2c2FybmI3cHN0bGlmWWFyd3ZtQzV0cmdCQzI0RC1wblpTbk9GNVN2U2JRaXpyTHZpTzEtN3V3dw?oc=5",
+      "source": "Báo Nhân Dân điện tử",
+      "published_at": "2026-03-02T08:00:00+00:00",
+      "query": "phim mới ra mắt điện ảnh",
       "status": "needs_review"
     }
   ]
